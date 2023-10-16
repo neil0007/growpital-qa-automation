@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-13T17:33:14 IST" name="Default suite" finished-at="2023-10-13T17:33:35 IST" duration-ms="21467">
+    <groups>
+    </groups>
+    <test started-at="2023-10-13T17:33:14 IST" name="Default test" finished-at="2023-10-13T17:33:35 IST" duration-ms="21467">
+      <class name="com.qa.growpital.tests.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.growpital.tests.LoginPageTest@2ea227af]" started-at="2023-10-13T17:33:14 IST" name="setup" finished-at="2023-10-13T17:33:18 IST" duration-ms="3862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.LoginPageTest@2ea227af]" started-at="2023-10-13T17:33:18 IST" name="verifyLoginPageTitle" finished-at="2023-10-13T17:33:18 IST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method signature="loginToGrowpital()[pri:2, instance:com.qa.growpital.tests.LoginPageTest@2ea227af]" started-at="2023-10-13T17:33:18 IST" name="loginToGrowpital" finished-at="2023-10-13T17:33:25 IST" duration-ms="7226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToGrowpital -->
+        <test-method signature="verifyDashboardPageURL()[pri:3, instance:com.qa.growpital.tests.LoginPageTest@2ea227af]" started-at="2023-10-13T17:33:25 IST" name="verifyDashboardPageURL" finished-at="2023-10-13T17:33:30 IST" duration-ms="5003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardPageURL -->
+        <test-method signature="verifySingOutText()[pri:4, instance:com.qa.growpital.tests.LoginPageTest@2ea227af]" started-at="2023-10-13T17:33:30 IST" name="verifySingOutText" finished-at="2023-10-13T17:33:35 IST" duration-ms="5076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySingOutText -->
+        <test-method signature="verifySingOutFromApp()[pri:5, instance:com.qa.growpital.tests.LoginPageTest@2ea227af]" started-at="2023-10-13T17:33:35 IST" name="verifySingOutFromApp" finished-at="2023-10-13T17:33:35 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySingOutFromApp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.LoginPageTest@2ea227af]" started-at="2023-10-13T17:33:35 IST" name="tearDown" finished-at="2023-10-13T17:33:35 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.growpital.tests.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
