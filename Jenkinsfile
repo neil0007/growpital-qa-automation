@@ -39,7 +39,7 @@ pipeline {
         jdk: '',
         properties: [],
         reportBuildPolicy: 'ALWAYS',
-        results: [[path: 'growpital-qa-automation//allure-results']]
+        results: [[path: 'growpital-qa-automation/allure-results']]
       ])
       cleanWs()
     }
