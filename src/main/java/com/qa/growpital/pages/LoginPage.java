@@ -1,6 +1,7 @@
 package com.qa.growpital.pages;
 
 import com.microsoft.playwright.Page;
+import com.microsoft.playwright.options.LoadState;
 
 public class LoginPage {
 	private Page page;
@@ -9,7 +10,9 @@ public class LoginPage {
 	private String email = "input[name='username']";
 	private String password = "input[name='password']";
 	private String loginButton = "(//button[@type='button'])[2]";
-	
+	private String forgotPassword = "(//a[@class='amplify-link'])[1]";
+	private String signUp = "(//a[@class='amplify-link'])[2]";
+	private String createAccount = "//a[@href='/signup']";
 	
 	//page constructor
 	public LoginPage(Page page) {
@@ -18,7 +21,9 @@ public class LoginPage {
 
 	
 	//page actions/methods:
-	public String getLoginPageTitle() {
+	public String getLoginPageTitle() throws InterruptedException {
+		//page.waitForLoadState(LoadState.DOMCONTENTLOADED);
+		page.waitForLoadState(LoadState.LOAD);
 		String title =  page.title();
 		System.out.println("page title: " + title);
 		return title;
@@ -26,7 +31,6 @@ public class LoginPage {
 
 	public String getDashboardPageURL() {
 		String url =  page.url();
-		//System.out.println("page url : " + url);
 		return url;
 	}
 
@@ -42,4 +46,18 @@ public class LoginPage {
 		page.click(loginButton);
 	}
 	
+	public boolean isForgotPasswordLink() {
+		page.waitForSelector(forgotPassword);
+		 return page.isVisible(forgotPassword);
+	}
+	
+	public boolean isSignUpLink() {
+		return page.isVisible(signUp);
+	}
+	
+	public SignUpPage navigateToCreateAccount () {
+		page.click(createAccount);
+		return new SignUpPage(page);
+		
+	}
 }
