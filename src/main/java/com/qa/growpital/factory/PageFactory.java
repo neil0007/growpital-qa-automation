@@ -77,7 +77,7 @@ public class PageFactory {
 			break;
 		}
 
-		tlBrowserContext.set(getBrowser().newContext());
+		tlBrowserContext.set(getBrowser().newContext(new Browser.NewContextOptions().setIgnoreHTTPSErrors(true)));
 		tlPage.set(getBrowserContext().newPage());
 		getPage().navigate(prop.getProperty("url").trim());
 		
