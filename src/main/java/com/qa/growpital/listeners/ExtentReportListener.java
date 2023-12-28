@@ -48,7 +48,7 @@ public class ExtentReportListener implements ITestListener {
 		extentReports.setSystemInfo("System", "VM");
 		extentReports.setSystemInfo("Author", "Neil Rajurkar");
 		extentReports.setSystemInfo("Build#", "1.1");
-		extentReports.setSystemInfo("Team", "QA");
+		extentReports.setSystemInfo("Team", "Automation QA");
 		
 
 		//extentReports.setSystemInfo("ENV NAME", System.getProperty("env"));
