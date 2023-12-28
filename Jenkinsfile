@@ -33,7 +33,7 @@ pipeline {
         keepAll: true,
         reportDir: 'growpital-qa-automation/extentReport',
         reportFiles: 'TestExecutionReport.html',
-        reportName: 'TestExecutionReport.html'
+        reportName: 'Extent Report'
       ]
       allure([
         includeProperties: false,
