@@ -31,8 +31,8 @@ pipeline {
         allowMissing: false,
         alwaysLinkToLastBuild: false,
         keepAll: true,
-        reportDir: 'growpital-qa-automation/extentReport/TestExecutionReport',
-        reportFiles: 'TestExecutionReport.html',
+        reportDir: 'growpital-qa-automation/extentReport/',
+        reportFiles: 'Extent.html',
         reportName: 'Extent Report'
       ]
       allure([
