@@ -31,7 +31,7 @@ pipeline {
         allowMissing: false,
         alwaysLinkToLastBuild: false,
         keepAll: true,
-        reportDir: 'growpital-qa-automation/extentReport/',
+        reportDir: 'growpital-qa-automation/extentReport',
         reportFiles: 'Extent.html',
         reportName: 'Extent Report'
       ]
