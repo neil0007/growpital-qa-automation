@@ -2,153 +2,12 @@
 <testng-results ignored="0" total="54" passed="54" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-28T18:31:12 IST" name="Growpital Test PW Suite" finished-at="2023-12-28T18:32:41 IST" duration-ms="88879">
+  <suite started-at="2023-12-28T19:43:32 IST" name="Growpital Test PW Suite" finished-at="2023-12-28T19:44:53 IST" duration-ms="81220">
     <groups>
     </groups>
-    <test started-at="2023-12-28T18:31:12 IST" name="Login page test on Safari" finished-at="2023-12-28T18:31:57 IST" duration-ms="45248">
+    <test started-at="2023-12-28T19:43:32 IST" name="Login page test on Chromium" finished-at="2023-12-28T19:44:17 IST" duration-ms="44762">
       <class name="com.qa.growpital.tests.LoginPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-28T18:31:12 IST" name="setup" finished-at="2023-12-28T18:31:24 IST" duration-ms="12261" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[safari]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-28T18:31:24 IST" name="verifyLoginPageTitle" finished-at="2023-12-28T18:31:29 IST" duration-ms="5016" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginPageTitle -->
-        <test-method signature="verifyForgotPasswordLinkExist()[pri:2, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-28T18:31:29 IST" name="verifyForgotPasswordLinkExist" finished-at="2023-12-28T18:31:29 IST" duration-ms="439" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyForgotPasswordLinkExist -->
-        <test-method signature="verifySignUpLinkExist()[pri:3, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-28T18:31:29 IST" name="verifySignUpLinkExist" finished-at="2023-12-28T18:31:30 IST" duration-ms="206" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySignUpLinkExist -->
-        <test-method signature="loginToGrowpital()[pri:4, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-28T18:31:30 IST" name="loginToGrowpital" finished-at="2023-12-28T18:31:36 IST" duration-ms="6772" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToGrowpital -->
-        <test-method signature="verifyDashboardPageURL()[pri:5, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-28T18:31:36 IST" name="verifyDashboardPageURL" finished-at="2023-12-28T18:31:46 IST" duration-ms="10024" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyDashboardPageURL -->
-        <test-method signature="verifySingOutText()[pri:6, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-28T18:31:46 IST" name="verifySingOutText" finished-at="2023-12-28T18:31:52 IST" duration-ms="5090" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySingOutText -->
-        <test-method signature="verifySingOutFromApp()[pri:7, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-28T18:31:52 IST" name="verifySingOutFromApp" finished-at="2023-12-28T18:31:57 IST" duration-ms="5119" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySingOutFromApp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-28T18:31:57 IST" name="tearDown" finished-at="2023-12-28T18:31:57 IST" duration-ms="178" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.growpital.tests.LoginPageTest -->
-    </test> <!-- Login page test on Safari -->
-    <test started-at="2023-12-28T18:31:12 IST" name="Login page test on Edge" finished-at="2023-12-28T18:31:59 IST" duration-ms="47164">
-      <class name="com.qa.growpital.tests.LoginPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-28T18:31:12 IST" name="setup" finished-at="2023-12-28T18:31:21 IST" duration-ms="9650" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-28T18:31:21 IST" name="verifyLoginPageTitle" finished-at="2023-12-28T18:31:27 IST" duration-ms="5849" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginPageTitle -->
-        <test-method signature="verifyForgotPasswordLinkExist()[pri:2, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-28T18:31:28 IST" name="verifyForgotPasswordLinkExist" finished-at="2023-12-28T18:31:30 IST" duration-ms="1325" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyForgotPasswordLinkExist -->
-        <test-method signature="verifySignUpLinkExist()[pri:3, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-28T18:31:30 IST" name="verifySignUpLinkExist" finished-at="2023-12-28T18:31:30 IST" duration-ms="30" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySignUpLinkExist -->
-        <test-method signature="loginToGrowpital()[pri:4, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-28T18:31:30 IST" name="loginToGrowpital" finished-at="2023-12-28T18:31:38 IST" duration-ms="8153" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToGrowpital -->
-        <test-method signature="verifyDashboardPageURL()[pri:5, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-28T18:31:38 IST" name="verifyDashboardPageURL" finished-at="2023-12-28T18:31:48 IST" duration-ms="10011" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyDashboardPageURL -->
-        <test-method signature="verifySingOutText()[pri:6, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-28T18:31:48 IST" name="verifySingOutText" finished-at="2023-12-28T18:31:53 IST" duration-ms="5108" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySingOutText -->
-        <test-method signature="verifySingOutFromApp()[pri:7, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-28T18:31:53 IST" name="verifySingOutFromApp" finished-at="2023-12-28T18:31:58 IST" duration-ms="5350" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySingOutFromApp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-28T18:31:58 IST" name="tearDown" finished-at="2023-12-28T18:31:59 IST" duration-ms="404" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.growpital.tests.LoginPageTest -->
-    </test> <!-- Login page test on Edge -->
-    <test started-at="2023-12-28T18:31:12 IST" name="Login page test on Chrome" finished-at="2023-12-28T18:32:00 IST" duration-ms="48291">
-      <class name="com.qa.growpital.tests.LoginPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-28T18:31:12 IST" name="setup" finished-at="2023-12-28T18:31:22 IST" duration-ms="9879" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-28T18:31:22 IST" name="verifyLoginPageTitle" finished-at="2023-12-28T18:31:28 IST" duration-ms="6793" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginPageTitle -->
-        <test-method signature="verifyForgotPasswordLinkExist()[pri:2, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-28T18:31:28 IST" name="verifyForgotPasswordLinkExist" finished-at="2023-12-28T18:31:31 IST" duration-ms="2424" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyForgotPasswordLinkExist -->
-        <test-method signature="verifySignUpLinkExist()[pri:3, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-28T18:31:31 IST" name="verifySignUpLinkExist" finished-at="2023-12-28T18:31:31 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySignUpLinkExist -->
-        <test-method signature="loginToGrowpital()[pri:4, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-28T18:31:31 IST" name="loginToGrowpital" finished-at="2023-12-28T18:31:38 IST" duration-ms="7635" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToGrowpital -->
-        <test-method signature="verifyDashboardPageURL()[pri:5, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-28T18:31:38 IST" name="verifyDashboardPageURL" finished-at="2023-12-28T18:31:48 IST" duration-ms="10010" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyDashboardPageURL -->
-        <test-method signature="verifySingOutText()[pri:6, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-28T18:31:48 IST" name="verifySingOutText" finished-at="2023-12-28T18:31:54 IST" duration-ms="5107" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySingOutText -->
-        <test-method signature="verifySingOutFromApp()[pri:7, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-28T18:31:54 IST" name="verifySingOutFromApp" finished-at="2023-12-28T18:31:59 IST" duration-ms="5317" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySingOutFromApp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-28T18:31:59 IST" name="tearDown" finished-at="2023-12-28T18:32:00 IST" duration-ms="998" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.growpital.tests.LoginPageTest -->
-    </test> <!-- Login page test on Chrome -->
-    <test started-at="2023-12-28T18:31:12 IST" name="Login page test on Chromium" finished-at="2023-12-28T18:32:00 IST" duration-ms="48453">
-      <class name="com.qa.growpital.tests.LoginPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-28T18:31:12 IST" name="setup" finished-at="2023-12-28T18:31:21 IST" duration-ms="9517" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-28T19:43:32 IST" name="setup" finished-at="2023-12-28T19:43:45 IST" duration-ms="12656" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -159,171 +18,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-28T18:31:21 IST" name="verifyLoginPageTitle" finished-at="2023-12-28T18:31:31 IST" duration-ms="9497" status="PASS">
+        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-28T19:43:45 IST" name="verifyLoginPageTitle" finished-at="2023-12-28T19:43:53 IST" duration-ms="7882" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitle -->
-        <test-method signature="verifyForgotPasswordLinkExist()[pri:2, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-28T18:31:31 IST" name="verifyForgotPasswordLinkExist" finished-at="2023-12-28T18:31:32 IST" duration-ms="1161" status="PASS">
+        <test-method signature="verifyForgotPasswordLinkExist()[pri:2, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-28T19:43:53 IST" name="verifyForgotPasswordLinkExist" finished-at="2023-12-28T19:43:54 IST" duration-ms="1537" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyForgotPasswordLinkExist -->
-        <test-method signature="verifySignUpLinkExist()[pri:3, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-28T18:31:32 IST" name="verifySignUpLinkExist" finished-at="2023-12-28T18:31:32 IST" duration-ms="91" status="PASS">
+        <test-method signature="verifySignUpLinkExist()[pri:3, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-28T19:43:54 IST" name="verifySignUpLinkExist" finished-at="2023-12-28T19:43:54 IST" duration-ms="98" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignUpLinkExist -->
-        <test-method signature="loginToGrowpital()[pri:4, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-28T18:31:32 IST" name="loginToGrowpital" finished-at="2023-12-28T18:31:39 IST" duration-ms="6939" status="PASS">
+        <test-method signature="loginToGrowpital()[pri:4, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-28T19:43:54 IST" name="loginToGrowpital" finished-at="2023-12-28T19:44:01 IST" duration-ms="6623" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToGrowpital -->
-        <test-method signature="verifyDashboardPageURL()[pri:5, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-28T18:31:39 IST" name="verifyDashboardPageURL" finished-at="2023-12-28T18:31:49 IST" duration-ms="10017" status="PASS">
+        <test-method signature="verifyDashboardPageURL()[pri:5, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-28T19:44:01 IST" name="verifyDashboardPageURL" finished-at="2023-12-28T19:44:06 IST" duration-ms="5005" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDashboardPageURL -->
-        <test-method signature="verifySingOutText()[pri:6, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-28T18:31:49 IST" name="verifySingOutText" finished-at="2023-12-28T18:31:59 IST" duration-ms="10353" status="PASS">
+        <test-method signature="verifySingOutText()[pri:6, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-28T19:44:06 IST" name="verifySingOutText" finished-at="2023-12-28T19:44:11 IST" duration-ms="5121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySingOutText -->
-        <test-method signature="verifySingOutFromApp()[pri:7, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-28T18:31:59 IST" name="verifySingOutFromApp" finished-at="2023-12-28T18:32:00 IST" duration-ms="224" status="PASS">
+        <test-method signature="verifySingOutFromApp()[pri:7, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-28T19:44:11 IST" name="verifySingOutFromApp" finished-at="2023-12-28T19:44:16 IST" duration-ms="5140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySingOutFromApp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-28T18:32:00 IST" name="tearDown" finished-at="2023-12-28T18:32:00 IST" duration-ms="544" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-28T19:44:16 IST" name="tearDown" finished-at="2023-12-28T19:44:17 IST" duration-ms="652" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.growpital.tests.LoginPageTest -->
     </test> <!-- Login page test on Chromium -->
-    <test started-at="2023-12-28T18:31:12 IST" name="Login page test on Firefox" finished-at="2023-12-28T18:32:05 IST" duration-ms="53632">
+    <test started-at="2023-12-28T19:43:32 IST" name="Login page test on Chrome" finished-at="2023-12-28T19:44:17 IST" duration-ms="45242">
       <class name="com.qa.growpital.tests.LoginPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-28T18:31:12 IST" name="setup" finished-at="2023-12-28T18:31:29 IST" duration-ms="17672" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-28T18:31:29 IST" name="verifyLoginPageTitle" finished-at="2023-12-28T18:31:30 IST" duration-ms="922" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginPageTitle -->
-        <test-method signature="verifyForgotPasswordLinkExist()[pri:2, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-28T18:31:30 IST" name="verifyForgotPasswordLinkExist" finished-at="2023-12-28T18:31:35 IST" duration-ms="5049" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyForgotPasswordLinkExist -->
-        <test-method signature="verifySignUpLinkExist()[pri:3, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-28T18:31:35 IST" name="verifySignUpLinkExist" finished-at="2023-12-28T18:31:40 IST" duration-ms="5037" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySignUpLinkExist -->
-        <test-method signature="loginToGrowpital()[pri:4, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-28T18:31:40 IST" name="loginToGrowpital" finished-at="2023-12-28T18:31:46 IST" duration-ms="5909" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToGrowpital -->
-        <test-method signature="verifyDashboardPageURL()[pri:5, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-28T18:31:46 IST" name="verifyDashboardPageURL" finished-at="2023-12-28T18:31:51 IST" duration-ms="5006" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyDashboardPageURL -->
-        <test-method signature="verifySingOutText()[pri:6, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-28T18:31:51 IST" name="verifySingOutText" finished-at="2023-12-28T18:32:02 IST" duration-ms="10388" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySingOutText -->
-        <test-method signature="verifySingOutFromApp()[pri:7, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-28T18:32:02 IST" name="verifySingOutFromApp" finished-at="2023-12-28T18:32:02 IST" duration-ms="728" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySingOutFromApp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-28T18:32:02 IST" name="tearDown" finished-at="2023-12-28T18:32:05 IST" duration-ms="2857" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.growpital.tests.LoginPageTest -->
-    </test> <!-- Login page test on Firefox -->
-    <test started-at="2023-12-28T18:32:00 IST" name="Sign Up page test on Safari" finished-at="2023-12-28T18:32:12 IST" duration-ms="11867">
-      <class name="com.qa.growpital.tests.SignUpPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@35645047]" started-at="2023-12-28T18:32:00 IST" name="setup" finished-at="2023-12-28T18:32:06 IST" duration-ms="5330" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[safari]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.SignUpPageTest@35645047]" started-at="2023-12-28T18:32:06 IST" name="verifyLoginPageTitle" finished-at="2023-12-28T18:32:11 IST" duration-ms="5017" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginPageTitle -->
-        <test-method signature="verifySignUpPageURL()[pri:2, instance:com.qa.growpital.tests.SignUpPageTest@35645047]" started-at="2023-12-28T18:32:11 IST" name="verifySignUpPageURL" finished-at="2023-12-28T18:32:12 IST" duration-ms="893" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySignUpPageURL -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@35645047]" started-at="2023-12-28T18:32:12 IST" name="tearDown" finished-at="2023-12-28T18:32:12 IST" duration-ms="599" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.growpital.tests.SignUpPageTest -->
-    </test> <!-- Sign Up page test on Safari -->
-    <test started-at="2023-12-28T18:32:00 IST" name="Sign Up page test on Firefox" finished-at="2023-12-28T18:32:27 IST" duration-ms="26651">
-      <class name="com.qa.growpital.tests.SignUpPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@432038ec]" started-at="2023-12-28T18:32:00 IST" name="setup" finished-at="2023-12-28T18:32:12 IST" duration-ms="11419" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.SignUpPageTest@432038ec]" started-at="2023-12-28T18:32:12 IST" name="verifyLoginPageTitle" finished-at="2023-12-28T18:32:12 IST" duration-ms="584" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginPageTitle -->
-        <test-method signature="verifySignUpPageURL()[pri:2, instance:com.qa.growpital.tests.SignUpPageTest@432038ec]" started-at="2023-12-28T18:32:12 IST" name="verifySignUpPageURL" finished-at="2023-12-28T18:32:24 IST" duration-ms="11875" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySignUpPageURL -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@432038ec]" started-at="2023-12-28T18:32:24 IST" name="tearDown" finished-at="2023-12-28T18:32:27 IST" duration-ms="2628" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.growpital.tests.SignUpPageTest -->
-    </test> <!-- Sign Up page test on Firefox -->
-    <test started-at="2023-12-28T18:31:59 IST" name="Sign Up page test on Chromium" finished-at="2023-12-28T18:32:28 IST" duration-ms="28981">
-      <class name="com.qa.growpital.tests.SignUpPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@1e8b7643]" started-at="2023-12-28T18:31:59 IST" name="setup" finished-at="2023-12-28T18:32:08 IST" duration-ms="8623" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chromium]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.SignUpPageTest@1e8b7643]" started-at="2023-12-28T18:32:08 IST" name="verifyLoginPageTitle" finished-at="2023-12-28T18:32:13 IST" duration-ms="5119" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginPageTitle -->
-        <test-method signature="verifySignUpPageURL()[pri:2, instance:com.qa.growpital.tests.SignUpPageTest@1e8b7643]" started-at="2023-12-28T18:32:13 IST" name="verifySignUpPageURL" finished-at="2023-12-28T18:32:15 IST" duration-ms="2573" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySignUpPageURL -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@1e8b7643]" started-at="2023-12-28T18:32:15 IST" name="tearDown" finished-at="2023-12-28T18:32:28 IST" duration-ms="12602" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.growpital.tests.SignUpPageTest -->
-    </test> <!-- Sign Up page test on Chromium -->
-    <test started-at="2023-12-28T18:32:10 IST" name="Sign Up page test on Chrome" finished-at="2023-12-28T18:32:28 IST" duration-ms="17583">
-      <class name="com.qa.growpital.tests.SignUpPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@5ddcc487]" started-at="2023-12-28T18:32:10 IST" name="setup" finished-at="2023-12-28T18:32:18 IST" duration-ms="7882" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-28T19:43:32 IST" name="setup" finished-at="2023-12-28T19:43:41 IST" duration-ms="9113" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -334,23 +65,90 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.SignUpPageTest@5ddcc487]" started-at="2023-12-28T18:32:18 IST" name="verifyLoginPageTitle" finished-at="2023-12-28T18:32:24 IST" duration-ms="5812" status="PASS">
+        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-28T19:43:42 IST" name="verifyLoginPageTitle" finished-at="2023-12-28T19:43:48 IST" duration-ms="6506" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitle -->
-        <test-method signature="verifySignUpPageURL()[pri:2, instance:com.qa.growpital.tests.SignUpPageTest@5ddcc487]" started-at="2023-12-28T18:32:24 IST" name="verifySignUpPageURL" finished-at="2023-12-28T18:32:26 IST" duration-ms="1659" status="PASS">
+        <test-method signature="verifyForgotPasswordLinkExist()[pri:2, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-28T19:43:48 IST" name="verifyForgotPasswordLinkExist" finished-at="2023-12-28T19:43:49 IST" duration-ms="572" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySignUpPageURL -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@5ddcc487]" started-at="2023-12-28T18:32:26 IST" name="tearDown" finished-at="2023-12-28T18:32:28 IST" duration-ms="2208" status="PASS">
+        </test-method> <!-- verifyForgotPasswordLinkExist -->
+        <test-method signature="verifySignUpLinkExist()[pri:3, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-28T19:43:49 IST" name="verifySignUpLinkExist" finished-at="2023-12-28T19:43:49 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpLinkExist -->
+        <test-method signature="loginToGrowpital()[pri:4, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-28T19:43:49 IST" name="loginToGrowpital" finished-at="2023-12-28T19:44:01 IST" duration-ms="12548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToGrowpital -->
+        <test-method signature="verifyDashboardPageURL()[pri:5, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-28T19:44:01 IST" name="verifyDashboardPageURL" finished-at="2023-12-28T19:44:06 IST" duration-ms="5009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardPageURL -->
+        <test-method signature="verifySingOutText()[pri:6, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-28T19:44:06 IST" name="verifySingOutText" finished-at="2023-12-28T19:44:11 IST" duration-ms="5090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySingOutText -->
+        <test-method signature="verifySingOutFromApp()[pri:7, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-28T19:44:11 IST" name="verifySingOutFromApp" finished-at="2023-12-28T19:44:17 IST" duration-ms="5112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySingOutFromApp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-28T19:44:17 IST" name="tearDown" finished-at="2023-12-28T19:44:17 IST" duration-ms="712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.growpital.tests.SignUpPageTest -->
-    </test> <!-- Sign Up page test on Chrome -->
-    <test started-at="2023-12-28T18:32:12 IST" name="Sign Up page test on Edge" finished-at="2023-12-28T18:32:28 IST" duration-ms="15921">
-      <class name="com.qa.growpital.tests.SignUpPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@4671115f]" started-at="2023-12-28T18:32:12 IST" name="setup" finished-at="2023-12-28T18:32:21 IST" duration-ms="8474" status="PASS">
+      </class> <!-- com.qa.growpital.tests.LoginPageTest -->
+    </test> <!-- Login page test on Chrome -->
+    <test started-at="2023-12-28T19:43:32 IST" name="Login page test on Safari" finished-at="2023-12-28T19:44:18 IST" duration-ms="46351">
+      <class name="com.qa.growpital.tests.LoginPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-28T19:43:32 IST" name="setup" finished-at="2023-12-28T19:43:41 IST" duration-ms="9196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-28T19:43:42 IST" name="verifyLoginPageTitle" finished-at="2023-12-28T19:43:47 IST" duration-ms="5279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method signature="verifyForgotPasswordLinkExist()[pri:2, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-28T19:43:47 IST" name="verifyForgotPasswordLinkExist" finished-at="2023-12-28T19:43:48 IST" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPasswordLinkExist -->
+        <test-method signature="verifySignUpLinkExist()[pri:3, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-28T19:43:48 IST" name="verifySignUpLinkExist" finished-at="2023-12-28T19:43:48 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpLinkExist -->
+        <test-method signature="loginToGrowpital()[pri:4, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-28T19:43:48 IST" name="loginToGrowpital" finished-at="2023-12-28T19:43:57 IST" duration-ms="8755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToGrowpital -->
+        <test-method signature="verifyDashboardPageURL()[pri:5, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-28T19:43:57 IST" name="verifyDashboardPageURL" finished-at="2023-12-28T19:44:07 IST" duration-ms="10040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardPageURL -->
+        <test-method signature="verifySingOutText()[pri:6, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-28T19:44:07 IST" name="verifySingOutText" finished-at="2023-12-28T19:44:17 IST" duration-ms="10136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySingOutText -->
+        <test-method signature="verifySingOutFromApp()[pri:7, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-28T19:44:17 IST" name="verifySingOutFromApp" finished-at="2023-12-28T19:44:17 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySingOutFromApp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-28T19:44:18 IST" name="tearDown" finished-at="2023-12-28T19:44:18 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.growpital.tests.LoginPageTest -->
+    </test> <!-- Login page test on Safari -->
+    <test started-at="2023-12-28T19:43:32 IST" name="Login page test on Edge" finished-at="2023-12-28T19:44:24 IST" duration-ms="51956">
+      <class name="com.qa.growpital.tests.LoginPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-28T19:43:32 IST" name="setup" finished-at="2023-12-28T19:43:48 IST" duration-ms="15484" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -361,93 +159,295 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.SignUpPageTest@4671115f]" started-at="2023-12-28T18:32:21 IST" name="verifyLoginPageTitle" finished-at="2023-12-28T18:32:26 IST" duration-ms="5232" status="PASS">
+        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-28T19:43:48 IST" name="verifyLoginPageTitle" finished-at="2023-12-28T19:43:48 IST" duration-ms="122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitle -->
-        <test-method signature="verifySignUpPageURL()[pri:2, instance:com.qa.growpital.tests.SignUpPageTest@4671115f]" started-at="2023-12-28T18:32:26 IST" name="verifySignUpPageURL" finished-at="2023-12-28T18:32:27 IST" duration-ms="1112" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySignUpPageURL -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@4671115f]" started-at="2023-12-28T18:32:27 IST" name="tearDown" finished-at="2023-12-28T18:32:28 IST" duration-ms="1085" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.growpital.tests.SignUpPageTest -->
-    </test> <!-- Sign Up page test on Edge -->
-    <test started-at="2023-12-28T18:32:27 IST" name="Sign Up page test on Headless" finished-at="2023-12-28T18:32:32 IST" duration-ms="4638">
-      <class name="com.qa.growpital.tests.SignUpPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@36060e]" started-at="2023-12-28T18:32:27 IST" name="setup" finished-at="2023-12-28T18:32:30 IST" duration-ms="2820" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[headless]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.SignUpPageTest@36060e]" started-at="2023-12-28T18:32:30 IST" name="verifyLoginPageTitle" finished-at="2023-12-28T18:32:30 IST" duration-ms="45" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginPageTitle -->
-        <test-method signature="verifySignUpPageURL()[pri:2, instance:com.qa.growpital.tests.SignUpPageTest@36060e]" started-at="2023-12-28T18:32:30 IST" name="verifySignUpPageURL" finished-at="2023-12-28T18:32:31 IST" duration-ms="1496" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySignUpPageURL -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@36060e]" started-at="2023-12-28T18:32:31 IST" name="tearDown" finished-at="2023-12-28T18:32:32 IST" duration-ms="258" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.growpital.tests.SignUpPageTest -->
-    </test> <!-- Sign Up page test on Headless -->
-    <test started-at="2023-12-28T18:31:58 IST" name="Login page test on Headless" finished-at="2023-12-28T18:32:41 IST" duration-ms="42189">
-      <class name="com.qa.growpital.tests.LoginPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-28T18:31:58 IST" name="setup" finished-at="2023-12-28T18:32:03 IST" duration-ms="4322" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[headless]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-28T18:32:03 IST" name="verifyLoginPageTitle" finished-at="2023-12-28T18:32:03 IST" duration-ms="150" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginPageTitle -->
-        <test-method signature="verifyForgotPasswordLinkExist()[pri:2, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-28T18:32:03 IST" name="verifyForgotPasswordLinkExist" finished-at="2023-12-28T18:32:08 IST" duration-ms="4667" status="PASS">
+        <test-method signature="verifyForgotPasswordLinkExist()[pri:2, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-28T19:43:48 IST" name="verifyForgotPasswordLinkExist" finished-at="2023-12-28T19:43:55 IST" duration-ms="7169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyForgotPasswordLinkExist -->
-        <test-method signature="verifySignUpLinkExist()[pri:3, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-28T18:32:08 IST" name="verifySignUpLinkExist" finished-at="2023-12-28T18:32:13 IST" duration-ms="5010" status="PASS">
+        <test-method signature="verifySignUpLinkExist()[pri:3, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-28T19:43:55 IST" name="verifySignUpLinkExist" finished-at="2023-12-28T19:44:00 IST" duration-ms="5023" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignUpLinkExist -->
-        <test-method signature="loginToGrowpital()[pri:4, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-28T18:32:13 IST" name="loginToGrowpital" finished-at="2023-12-28T18:32:20 IST" duration-ms="7658" status="PASS">
+        <test-method signature="loginToGrowpital()[pri:4, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-28T19:44:00 IST" name="loginToGrowpital" finished-at="2023-12-28T19:44:06 IST" duration-ms="5953" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToGrowpital -->
-        <test-method signature="verifyDashboardPageURL()[pri:5, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-28T18:32:20 IST" name="verifyDashboardPageURL" finished-at="2023-12-28T18:32:30 IST" duration-ms="10022" status="PASS">
+        <test-method signature="verifyDashboardPageURL()[pri:5, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-28T19:44:06 IST" name="verifyDashboardPageURL" finished-at="2023-12-28T19:44:11 IST" duration-ms="5006" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDashboardPageURL -->
-        <test-method signature="verifySingOutText()[pri:6, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-28T18:32:30 IST" name="verifySingOutText" finished-at="2023-12-28T18:32:35 IST" duration-ms="5094" status="PASS">
+        <test-method signature="verifySingOutText()[pri:6, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-28T19:44:11 IST" name="verifySingOutText" finished-at="2023-12-28T19:44:21 IST" duration-ms="10293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySingOutText -->
-        <test-method signature="verifySingOutFromApp()[pri:7, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-28T18:32:35 IST" name="verifySingOutFromApp" finished-at="2023-12-28T18:32:40 IST" duration-ms="5086" status="PASS">
+        <test-method signature="verifySingOutFromApp()[pri:7, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-28T19:44:21 IST" name="verifySingOutFromApp" finished-at="2023-12-28T19:44:21 IST" duration-ms="271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySingOutFromApp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-28T18:32:40 IST" name="tearDown" finished-at="2023-12-28T18:32:41 IST" duration-ms="98" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-28T19:44:21 IST" name="tearDown" finished-at="2023-12-28T19:44:24 IST" duration-ms="2592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.growpital.tests.LoginPageTest -->
+    </test> <!-- Login page test on Edge -->
+    <test started-at="2023-12-28T19:43:32 IST" name="Login page test on Firefox" finished-at="2023-12-28T19:44:31 IST" duration-ms="59169">
+      <class name="com.qa.growpital.tests.LoginPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-28T19:43:32 IST" name="setup" finished-at="2023-12-28T19:43:51 IST" duration-ms="19212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-28T19:43:51 IST" name="verifyLoginPageTitle" finished-at="2023-12-28T19:43:52 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method signature="verifyForgotPasswordLinkExist()[pri:2, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-28T19:43:52 IST" name="verifyForgotPasswordLinkExist" finished-at="2023-12-28T19:43:56 IST" duration-ms="4283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPasswordLinkExist -->
+        <test-method signature="verifySignUpLinkExist()[pri:3, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-28T19:43:56 IST" name="verifySignUpLinkExist" finished-at="2023-12-28T19:44:01 IST" duration-ms="5020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpLinkExist -->
+        <test-method signature="loginToGrowpital()[pri:4, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-28T19:44:01 IST" name="loginToGrowpital" finished-at="2023-12-28T19:44:08 IST" duration-ms="7053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToGrowpital -->
+        <test-method signature="verifyDashboardPageURL()[pri:5, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-28T19:44:08 IST" name="verifyDashboardPageURL" finished-at="2023-12-28T19:44:18 IST" duration-ms="10010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardPageURL -->
+        <test-method signature="verifySingOutText()[pri:6, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-28T19:44:18 IST" name="verifySingOutText" finished-at="2023-12-28T19:44:24 IST" duration-ms="5585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySingOutText -->
+        <test-method signature="verifySingOutFromApp()[pri:7, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-28T19:44:24 IST" name="verifySingOutFromApp" finished-at="2023-12-28T19:44:29 IST" duration-ms="5180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySingOutFromApp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-28T19:44:29 IST" name="tearDown" finished-at="2023-12-28T19:44:31 IST" duration-ms="2215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.growpital.tests.LoginPageTest -->
+    </test> <!-- Login page test on Firefox -->
+    <test started-at="2023-12-28T19:44:29 IST" name="Sign Up page test on Safari" finished-at="2023-12-28T19:44:42 IST" duration-ms="12579">
+      <class name="com.qa.growpital.tests.SignUpPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@35645047]" started-at="2023-12-28T19:44:29 IST" name="setup" finished-at="2023-12-28T19:44:36 IST" duration-ms="6625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.SignUpPageTest@35645047]" started-at="2023-12-28T19:44:36 IST" name="verifyLoginPageTitle" finished-at="2023-12-28T19:44:41 IST" duration-ms="5020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method signature="verifySignUpPageURL()[pri:2, instance:com.qa.growpital.tests.SignUpPageTest@35645047]" started-at="2023-12-28T19:44:41 IST" name="verifySignUpPageURL" finished-at="2023-12-28T19:44:42 IST" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpPageURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@35645047]" started-at="2023-12-28T19:44:42 IST" name="tearDown" finished-at="2023-12-28T19:44:42 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.growpital.tests.SignUpPageTest -->
+    </test> <!-- Sign Up page test on Safari -->
+    <test started-at="2023-12-28T19:44:18 IST" name="Sign Up page test on Firefox" finished-at="2023-12-28T19:44:39 IST" duration-ms="20871">
+      <class name="com.qa.growpital.tests.SignUpPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@432038ec]" started-at="2023-12-28T19:44:18 IST" name="setup" finished-at="2023-12-28T19:44:28 IST" duration-ms="9580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.SignUpPageTest@432038ec]" started-at="2023-12-28T19:44:28 IST" name="verifyLoginPageTitle" finished-at="2023-12-28T19:44:28 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method signature="verifySignUpPageURL()[pri:2, instance:com.qa.growpital.tests.SignUpPageTest@432038ec]" started-at="2023-12-28T19:44:28 IST" name="verifySignUpPageURL" finished-at="2023-12-28T19:44:37 IST" duration-ms="8915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpPageURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@432038ec]" started-at="2023-12-28T19:44:37 IST" name="tearDown" finished-at="2023-12-28T19:44:39 IST" duration-ms="2258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.growpital.tests.SignUpPageTest -->
+    </test> <!-- Sign Up page test on Firefox -->
+    <test started-at="2023-12-28T19:44:18 IST" name="Sign Up page test on Chromium" finished-at="2023-12-28T19:44:41 IST" duration-ms="22393">
+      <class name="com.qa.growpital.tests.SignUpPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@1e8b7643]" started-at="2023-12-28T19:44:18 IST" name="setup" finished-at="2023-12-28T19:44:24 IST" duration-ms="5277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.SignUpPageTest@1e8b7643]" started-at="2023-12-28T19:44:24 IST" name="verifyLoginPageTitle" finished-at="2023-12-28T19:44:29 IST" duration-ms="5015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method signature="verifySignUpPageURL()[pri:2, instance:com.qa.growpital.tests.SignUpPageTest@1e8b7643]" started-at="2023-12-28T19:44:29 IST" name="verifySignUpPageURL" finished-at="2023-12-28T19:44:31 IST" duration-ms="2071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpPageURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@1e8b7643]" started-at="2023-12-28T19:44:31 IST" name="tearDown" finished-at="2023-12-28T19:44:41 IST" duration-ms="10011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.growpital.tests.SignUpPageTest -->
+    </test> <!-- Sign Up page test on Chromium -->
+    <test started-at="2023-12-28T19:44:18 IST" name="Login page test on Headless" finished-at="2023-12-28T19:44:48 IST" duration-ms="30192">
+      <class name="com.qa.growpital.tests.LoginPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-28T19:44:18 IST" name="setup" finished-at="2023-12-28T19:44:22 IST" duration-ms="3464" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[headless]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-28T19:44:22 IST" name="verifyLoginPageTitle" finished-at="2023-12-28T19:44:27 IST" duration-ms="5017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method signature="verifyForgotPasswordLinkExist()[pri:2, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-28T19:44:27 IST" name="verifyForgotPasswordLinkExist" finished-at="2023-12-28T19:44:27 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPasswordLinkExist -->
+        <test-method signature="verifySignUpLinkExist()[pri:3, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-28T19:44:27 IST" name="verifySignUpLinkExist" finished-at="2023-12-28T19:44:27 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpLinkExist -->
+        <test-method signature="loginToGrowpital()[pri:4, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-28T19:44:27 IST" name="loginToGrowpital" finished-at="2023-12-28T19:44:33 IST" duration-ms="5780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToGrowpital -->
+        <test-method signature="verifyDashboardPageURL()[pri:5, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-28T19:44:33 IST" name="verifyDashboardPageURL" finished-at="2023-12-28T19:44:38 IST" duration-ms="5007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardPageURL -->
+        <test-method signature="verifySingOutText()[pri:6, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-28T19:44:38 IST" name="verifySingOutText" finished-at="2023-12-28T19:44:48 IST" duration-ms="10409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySingOutText -->
+        <test-method signature="verifySingOutFromApp()[pri:7, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-28T19:44:48 IST" name="verifySingOutFromApp" finished-at="2023-12-28T19:44:48 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySingOutFromApp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-28T19:44:48 IST" name="tearDown" finished-at="2023-12-28T19:44:48 IST" duration-ms="145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.growpital.tests.LoginPageTest -->
     </test> <!-- Login page test on Headless -->
+    <test started-at="2023-12-28T19:44:42 IST" name="Sign Up page test on Edge" finished-at="2023-12-28T19:44:52 IST" duration-ms="9592">
+      <class name="com.qa.growpital.tests.SignUpPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@4671115f]" started-at="2023-12-28T19:44:42 IST" name="setup" finished-at="2023-12-28T19:44:47 IST" duration-ms="4931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.SignUpPageTest@4671115f]" started-at="2023-12-28T19:44:47 IST" name="verifyLoginPageTitle" finished-at="2023-12-28T19:44:47 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method signature="verifySignUpPageURL()[pri:2, instance:com.qa.growpital.tests.SignUpPageTest@4671115f]" started-at="2023-12-28T19:44:47 IST" name="verifySignUpPageURL" finished-at="2023-12-28T19:44:51 IST" duration-ms="3729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpPageURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@4671115f]" started-at="2023-12-28T19:44:51 IST" name="tearDown" finished-at="2023-12-28T19:44:52 IST" duration-ms="892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.growpital.tests.SignUpPageTest -->
+    </test> <!-- Sign Up page test on Edge -->
+    <test started-at="2023-12-28T19:44:31 IST" name="Sign Up page test on Chrome" finished-at="2023-12-28T19:44:52 IST" duration-ms="20350">
+      <class name="com.qa.growpital.tests.SignUpPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@5ddcc487]" started-at="2023-12-28T19:44:31 IST" name="setup" finished-at="2023-12-28T19:44:39 IST" duration-ms="8028" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.SignUpPageTest@5ddcc487]" started-at="2023-12-28T19:44:39 IST" name="verifyLoginPageTitle" finished-at="2023-12-28T19:44:45 IST" duration-ms="5239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method signature="verifySignUpPageURL()[pri:2, instance:com.qa.growpital.tests.SignUpPageTest@5ddcc487]" started-at="2023-12-28T19:44:45 IST" name="verifySignUpPageURL" finished-at="2023-12-28T19:44:47 IST" duration-ms="1885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpPageURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@5ddcc487]" started-at="2023-12-28T19:44:47 IST" name="tearDown" finished-at="2023-12-28T19:44:52 IST" duration-ms="5189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.growpital.tests.SignUpPageTest -->
+    </test> <!-- Sign Up page test on Chrome -->
+    <test started-at="2023-12-28T19:44:45 IST" name="Sign Up page test on Headless" finished-at="2023-12-28T19:44:53 IST" duration-ms="8605">
+      <class name="com.qa.growpital.tests.SignUpPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@36060e]" started-at="2023-12-28T19:44:45 IST" name="setup" finished-at="2023-12-28T19:44:50 IST" duration-ms="5038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[headless]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.SignUpPageTest@36060e]" started-at="2023-12-28T19:44:50 IST" name="verifyLoginPageTitle" finished-at="2023-12-28T19:44:50 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method signature="verifySignUpPageURL()[pri:2, instance:com.qa.growpital.tests.SignUpPageTest@36060e]" started-at="2023-12-28T19:44:50 IST" name="verifySignUpPageURL" finished-at="2023-12-28T19:44:53 IST" duration-ms="3214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpPageURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@36060e]" started-at="2023-12-28T19:44:53 IST" name="tearDown" finished-at="2023-12-28T19:44:53 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.growpital.tests.SignUpPageTest -->
+    </test> <!-- Sign Up page test on Headless -->
   </suite> <!-- Growpital Test PW Suite -->
 </testng-results>

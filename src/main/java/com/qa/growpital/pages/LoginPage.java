@@ -23,7 +23,7 @@ public class LoginPage {
 	//page actions/methods:
 	public String getLoginPageTitle() throws InterruptedException {
 		//page.waitForLoadState(LoadState.DOMCONTENTLOADED);
-		page.waitForLoadState(LoadState.LOAD);
+		//page.waitForLoadState(LoadState.LOAD);
 		String title =  page.title();
 		System.out.println("page title: " + title);
 		return title;
