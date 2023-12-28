@@ -16,7 +16,7 @@ pipeline {
   }
   post {
     failure {
-        slackSend(channel: "growpital-automation", message: "Hey Neil, Automation tests failed - Job Number: ${env.BUILD_NUMBER} (<${env.BUILD_URL}|Open>) Allure Report Link - ${env.BUILD_URL}allure/")
+        //slackSend(channel: "growpital-automation", message: "Hey Neil, Automation tests failed - Job Number: ${env.BUILD_NUMBER} (<${env.BUILD_URL}|Open>) Allure Report Link - ${env.BUILD_URL}allure/")
     }
     //success {
     //    slackSend(channel: "growpital-automation", message: "Automation tests success - Job Number: ${env.BUILD_NUMBER} (<${env.BUILD_URL}|Open>) Allure Report Link - ${env.BUILD_URL}allure/ ")
