@@ -42,8 +42,8 @@ private Page page;
 		return page.url();
 	}
 	
-	public String getInvestPageTitle() {
-		page.waitForLoadState();
+	public String getInvestPageTitle() throws InterruptedException {
+		Thread.sleep(2000);
 		String title =  page.title();
 		return title;
 	}

@@ -26,7 +26,7 @@ public class InvestPageTest extends BaseTest{
 	}
 	
 	@Test(priority=3)
-	public void verifyInvestPageTitle() {
+	public void verifyInvestPageTitle() throws InterruptedException {
 		String actualInvestPageTitle = investPage.getInvestPageTitle();
 		String expectedInvestPageTitle = AppConstants.Invest_Page_Title;
 		Assert.assertEquals(actualInvestPageTitle, expectedInvestPageTitle);

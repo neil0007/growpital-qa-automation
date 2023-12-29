@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="150" passed="150" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-30T02:03:46 IST" name="Growpital Test PW Suite" finished-at="2023-12-30T02:06:36 IST" duration-ms="169241">
+  <suite started-at="2023-12-30T03:27:54 IST" name="Growpital Test PW Suite" finished-at="2023-12-30T03:30:54 IST" duration-ms="180365">
     <groups>
     </groups>
-    <test started-at="2023-12-30T02:03:46 IST" name="Login page test on Safari" finished-at="2023-12-30T02:04:29 IST" duration-ms="42181">
+    <test started-at="2023-12-30T03:27:54 IST" name="Login page test on Safari" finished-at="2023-12-30T03:28:29 IST" duration-ms="35256">
       <class name="com.qa.growpital.tests.LoginPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-30T02:03:46 IST" name="setup" finished-at="2023-12-30T02:03:56 IST" duration-ms="9372" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-30T03:27:54 IST" name="setup" finished-at="2023-12-30T03:28:02 IST" duration-ms="8069" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,43 +18,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-30T02:03:56 IST" name="verifyLoginPageTitle" finished-at="2023-12-30T02:04:01 IST" duration-ms="5018" status="PASS">
+        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-30T03:28:02 IST" name="verifyLoginPageTitle" finished-at="2023-12-30T03:28:08 IST" duration-ms="5200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitle -->
-        <test-method signature="verifyForgotPasswordLinkExist()[pri:2, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-30T02:04:01 IST" name="verifyForgotPasswordLinkExist" finished-at="2023-12-30T02:04:02 IST" duration-ms="389" status="PASS">
+        <test-method signature="verifyForgotPasswordLinkExist()[pri:2, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-30T03:28:08 IST" name="verifyForgotPasswordLinkExist" finished-at="2023-12-30T03:28:08 IST" duration-ms="222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyForgotPasswordLinkExist -->
-        <test-method signature="verifySignUpLinkExist()[pri:3, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-30T02:04:02 IST" name="verifySignUpLinkExist" finished-at="2023-12-30T02:04:02 IST" duration-ms="11" status="PASS">
+        <test-method signature="verifySignUpLinkExist()[pri:3, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-30T03:28:08 IST" name="verifySignUpLinkExist" finished-at="2023-12-30T03:28:08 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignUpLinkExist -->
-        <test-method signature="loginToGrowpital()[pri:4, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-30T02:04:02 IST" name="loginToGrowpital" finished-at="2023-12-30T02:04:08 IST" duration-ms="6444" status="PASS">
+        <test-method signature="loginToGrowpital()[pri:4, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-30T03:28:08 IST" name="loginToGrowpital" finished-at="2023-12-30T03:28:14 IST" duration-ms="5957" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToGrowpital -->
-        <test-method signature="verifyDashboardPageURL()[pri:5, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-30T02:04:08 IST" name="verifyDashboardPageURL" finished-at="2023-12-30T02:04:18 IST" duration-ms="10015" status="PASS">
+        <test-method signature="verifyDashboardPageURL()[pri:5, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-30T03:28:14 IST" name="verifyDashboardPageURL" finished-at="2023-12-30T03:28:19 IST" duration-ms="5007" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDashboardPageURL -->
-        <test-method signature="verifySingOutText()[pri:6, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-30T02:04:18 IST" name="verifySingOutText" finished-at="2023-12-30T02:04:23 IST" duration-ms="5132" status="PASS">
+        <test-method signature="verifySingOutText()[pri:6, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-30T03:28:19 IST" name="verifySingOutText" finished-at="2023-12-30T03:28:29 IST" duration-ms="10141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySingOutText -->
-        <test-method signature="verifySingOutFromApp()[pri:7, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-30T02:04:23 IST" name="verifySingOutFromApp" finished-at="2023-12-30T02:04:29 IST" duration-ms="5121" status="PASS">
+        <test-method signature="verifySingOutFromApp()[pri:7, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-30T03:28:29 IST" name="verifySingOutFromApp" finished-at="2023-12-30T03:28:29 IST" duration-ms="144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySingOutFromApp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-30T02:04:29 IST" name="tearDown" finished-at="2023-12-30T02:04:29 IST" duration-ms="103" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.LoginPageTest@f107c50]" started-at="2023-12-30T03:28:29 IST" name="tearDown" finished-at="2023-12-30T03:28:29 IST" duration-ms="111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.growpital.tests.LoginPageTest -->
     </test> <!-- Login page test on Safari -->
-    <test started-at="2023-12-30T02:03:46 IST" name="Login page test on Chrome" finished-at="2023-12-30T02:04:30 IST" duration-ms="43892">
+    <test started-at="2023-12-30T03:27:54 IST" name="Login page test on Chrome" finished-at="2023-12-30T03:28:37 IST" duration-ms="42638">
       <class name="com.qa.growpital.tests.LoginPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-30T02:03:46 IST" name="setup" finished-at="2023-12-30T02:03:54 IST" duration-ms="7900" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-30T03:27:54 IST" name="setup" finished-at="2023-12-30T03:28:02 IST" duration-ms="8275" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,90 +65,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-30T02:03:55 IST" name="verifyLoginPageTitle" finished-at="2023-12-30T02:04:01 IST" duration-ms="5753" status="PASS">
+        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-30T03:28:02 IST" name="verifyLoginPageTitle" finished-at="2023-12-30T03:28:08 IST" duration-ms="5143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitle -->
-        <test-method signature="verifyForgotPasswordLinkExist()[pri:2, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-30T02:04:01 IST" name="verifyForgotPasswordLinkExist" finished-at="2023-12-30T02:04:01 IST" duration-ms="63" status="PASS">
+        <test-method signature="verifyForgotPasswordLinkExist()[pri:2, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-30T03:28:08 IST" name="verifyForgotPasswordLinkExist" finished-at="2023-12-30T03:28:08 IST" duration-ms="195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyForgotPasswordLinkExist -->
-        <test-method signature="verifySignUpLinkExist()[pri:3, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-30T02:04:01 IST" name="verifySignUpLinkExist" finished-at="2023-12-30T02:04:01 IST" duration-ms="7" status="PASS">
+        <test-method signature="verifySignUpLinkExist()[pri:3, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-30T03:28:08 IST" name="verifySignUpLinkExist" finished-at="2023-12-30T03:28:08 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignUpLinkExist -->
-        <test-method signature="loginToGrowpital()[pri:4, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-30T02:04:01 IST" name="loginToGrowpital" finished-at="2023-12-30T02:04:10 IST" duration-ms="8450" status="PASS">
+        <test-method signature="loginToGrowpital()[pri:4, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-30T03:28:08 IST" name="loginToGrowpital" finished-at="2023-12-30T03:28:16 IST" duration-ms="7553" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToGrowpital -->
-        <test-method signature="verifyDashboardPageURL()[pri:5, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-30T02:04:10 IST" name="verifyDashboardPageURL" finished-at="2023-12-30T02:04:20 IST" duration-ms="10015" status="PASS">
+        <test-method signature="verifyDashboardPageURL()[pri:5, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-30T03:28:16 IST" name="verifyDashboardPageURL" finished-at="2023-12-30T03:28:26 IST" duration-ms="10014" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDashboardPageURL -->
-        <test-method signature="verifySingOutText()[pri:6, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-30T02:04:20 IST" name="verifySingOutText" finished-at="2023-12-30T02:04:25 IST" duration-ms="5067" status="PASS">
+        <test-method signature="verifySingOutText()[pri:6, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-30T03:28:26 IST" name="verifySingOutText" finished-at="2023-12-30T03:28:31 IST" duration-ms="5288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySingOutText -->
-        <test-method signature="verifySingOutFromApp()[pri:7, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-30T02:04:25 IST" name="verifySingOutFromApp" finished-at="2023-12-30T02:04:30 IST" duration-ms="5145" status="PASS">
+        <test-method signature="verifySingOutFromApp()[pri:7, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-30T03:28:31 IST" name="verifySingOutFromApp" finished-at="2023-12-30T03:28:37 IST" duration-ms="5093" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySingOutFromApp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-30T02:04:30 IST" name="tearDown" finished-at="2023-12-30T02:04:30 IST" duration-ms="235" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.LoginPageTest@60410cd]" started-at="2023-12-30T03:28:37 IST" name="tearDown" finished-at="2023-12-30T03:28:37 IST" duration-ms="239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.growpital.tests.LoginPageTest -->
     </test> <!-- Login page test on Chrome -->
-    <test started-at="2023-12-30T02:03:46 IST" name="Login page test on Edge" finished-at="2023-12-30T02:04:34 IST" duration-ms="47112">
+    <test started-at="2023-12-30T03:27:54 IST" name="Login page test on Chromium" finished-at="2023-12-30T03:28:43 IST" duration-ms="48439">
       <class name="com.qa.growpital.tests.LoginPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-30T02:03:46 IST" name="setup" finished-at="2023-12-30T02:03:56 IST" duration-ms="9923" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-30T02:03:56 IST" name="verifyLoginPageTitle" finished-at="2023-12-30T02:04:03 IST" duration-ms="6128" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginPageTitle -->
-        <test-method signature="verifyForgotPasswordLinkExist()[pri:2, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-30T02:04:03 IST" name="verifyForgotPasswordLinkExist" finished-at="2023-12-30T02:04:03 IST" duration-ms="601" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyForgotPasswordLinkExist -->
-        <test-method signature="verifySignUpLinkExist()[pri:3, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-30T02:04:03 IST" name="verifySignUpLinkExist" finished-at="2023-12-30T02:04:03 IST" duration-ms="18" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySignUpLinkExist -->
-        <test-method signature="loginToGrowpital()[pri:4, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-30T02:04:03 IST" name="loginToGrowpital" finished-at="2023-12-30T02:04:12 IST" duration-ms="8316" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToGrowpital -->
-        <test-method signature="verifyDashboardPageURL()[pri:5, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-30T02:04:12 IST" name="verifyDashboardPageURL" finished-at="2023-12-30T02:04:22 IST" duration-ms="10007" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyDashboardPageURL -->
-        <test-method signature="verifySingOutText()[pri:6, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-30T02:04:22 IST" name="verifySingOutText" finished-at="2023-12-30T02:04:27 IST" duration-ms="5125" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySingOutText -->
-        <test-method signature="verifySingOutFromApp()[pri:7, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-30T02:04:27 IST" name="verifySingOutFromApp" finished-at="2023-12-30T02:04:32 IST" duration-ms="5177" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySingOutFromApp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-30T02:04:32 IST" name="tearDown" finished-at="2023-12-30T02:04:34 IST" duration-ms="1691" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.growpital.tests.LoginPageTest -->
-    </test> <!-- Login page test on Edge -->
-    <test started-at="2023-12-30T02:03:46 IST" name="Login page test on Chromium" finished-at="2023-12-30T02:04:34 IST" duration-ms="47393">
-      <class name="com.qa.growpital.tests.LoginPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-30T02:03:46 IST" name="setup" finished-at="2023-12-30T02:03:55 IST" duration-ms="8608" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-30T03:27:54 IST" name="setup" finished-at="2023-12-30T03:28:05 IST" duration-ms="11100" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -159,144 +112,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-30T02:03:55 IST" name="verifyLoginPageTitle" finished-at="2023-12-30T02:04:02 IST" duration-ms="7181" status="PASS">
+        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-30T03:28:05 IST" name="verifyLoginPageTitle" finished-at="2023-12-30T03:28:12 IST" duration-ms="6587" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitle -->
-        <test-method signature="verifyForgotPasswordLinkExist()[pri:2, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-30T02:04:02 IST" name="verifyForgotPasswordLinkExist" finished-at="2023-12-30T02:04:03 IST" duration-ms="1211" status="PASS">
+        <test-method signature="verifyForgotPasswordLinkExist()[pri:2, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-30T03:28:12 IST" name="verifyForgotPasswordLinkExist" finished-at="2023-12-30T03:28:13 IST" duration-ms="887" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyForgotPasswordLinkExist -->
-        <test-method signature="verifySignUpLinkExist()[pri:3, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-30T02:04:03 IST" name="verifySignUpLinkExist" finished-at="2023-12-30T02:04:03 IST" duration-ms="7" status="PASS">
+        <test-method signature="verifySignUpLinkExist()[pri:3, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-30T03:28:13 IST" name="verifySignUpLinkExist" finished-at="2023-12-30T03:28:13 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignUpLinkExist -->
-        <test-method signature="loginToGrowpital()[pri:4, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-30T02:04:03 IST" name="loginToGrowpital" finished-at="2023-12-30T02:04:12 IST" duration-ms="8355" status="PASS">
+        <test-method signature="loginToGrowpital()[pri:4, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-30T03:28:13 IST" name="loginToGrowpital" finished-at="2023-12-30T03:28:20 IST" duration-ms="7236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToGrowpital -->
-        <test-method signature="verifyDashboardPageURL()[pri:5, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-30T02:04:12 IST" name="verifyDashboardPageURL" finished-at="2023-12-30T02:04:22 IST" duration-ms="10007" status="PASS">
+        <test-method signature="verifyDashboardPageURL()[pri:5, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-30T03:28:20 IST" name="verifyDashboardPageURL" finished-at="2023-12-30T03:28:30 IST" duration-ms="10008" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDashboardPageURL -->
-        <test-method signature="verifySingOutText()[pri:6, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-30T02:04:22 IST" name="verifySingOutText" finished-at="2023-12-30T02:04:33 IST" duration-ms="10842" status="PASS">
+        <test-method signature="verifySingOutText()[pri:6, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-30T03:28:31 IST" name="verifySingOutText" finished-at="2023-12-30T03:28:42 IST" duration-ms="10262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySingOutText -->
-        <test-method signature="verifySingOutFromApp()[pri:7, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-30T02:04:33 IST" name="verifySingOutFromApp" finished-at="2023-12-30T02:04:33 IST" duration-ms="379" status="PASS">
+        <test-method signature="verifySingOutFromApp()[pri:7, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-30T03:28:42 IST" name="verifySingOutFromApp" finished-at="2023-12-30T03:28:42 IST" duration-ms="290" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySingOutFromApp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-30T02:04:33 IST" name="tearDown" finished-at="2023-12-30T02:04:34 IST" duration-ms="738" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.LoginPageTest@48d61b48]" started-at="2023-12-30T03:28:42 IST" name="tearDown" finished-at="2023-12-30T03:28:43 IST" duration-ms="560" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.growpital.tests.LoginPageTest -->
     </test> <!-- Login page test on Chromium -->
-    <test started-at="2023-12-30T02:04:34 IST" name="Sign Up page test on Safari" finished-at="2023-12-30T02:04:44 IST" duration-ms="10346">
+    <test started-at="2023-12-30T03:28:37 IST" name="Sign Up page test on Chromium" finished-at="2023-12-30T03:28:50 IST" duration-ms="13370">
       <class name="com.qa.growpital.tests.SignUpPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@35645047]" started-at="2023-12-30T02:04:34 IST" name="setup" finished-at="2023-12-30T02:04:38 IST" duration-ms="3875" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[safari]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.SignUpPageTest@35645047]" started-at="2023-12-30T02:04:38 IST" name="verifyLoginPageTitle" finished-at="2023-12-30T02:04:43 IST" duration-ms="5017" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginPageTitle -->
-        <test-method signature="verifySignUpPageURL()[pri:2, instance:com.qa.growpital.tests.SignUpPageTest@35645047]" started-at="2023-12-30T02:04:43 IST" name="verifySignUpPageURL" finished-at="2023-12-30T02:04:44 IST" duration-ms="1234" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySignUpPageURL -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@35645047]" started-at="2023-12-30T02:04:44 IST" name="tearDown" finished-at="2023-12-30T02:04:44 IST" duration-ms="208" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.growpital.tests.SignUpPageTest -->
-    </test> <!-- Sign Up page test on Safari -->
-    <test started-at="2023-12-30T02:03:46 IST" name="Login page test on Firefox" finished-at="2023-12-30T02:04:46 IST" duration-ms="59583">
-      <class name="com.qa.growpital.tests.LoginPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-30T02:03:46 IST" name="setup" finished-at="2023-12-30T02:04:04 IST" duration-ms="17273" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-30T02:04:04 IST" name="verifyLoginPageTitle" finished-at="2023-12-30T02:04:04 IST" duration-ms="139" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginPageTitle -->
-        <test-method signature="verifyForgotPasswordLinkExist()[pri:2, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-30T02:04:04 IST" name="verifyForgotPasswordLinkExist" finished-at="2023-12-30T02:04:11 IST" duration-ms="7001" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyForgotPasswordLinkExist -->
-        <test-method signature="verifySignUpLinkExist()[pri:3, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-30T02:04:11 IST" name="verifySignUpLinkExist" finished-at="2023-12-30T02:04:16 IST" duration-ms="5041" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySignUpLinkExist -->
-        <test-method signature="loginToGrowpital()[pri:4, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-30T02:04:16 IST" name="loginToGrowpital" finished-at="2023-12-30T02:04:22 IST" duration-ms="6271" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToGrowpital -->
-        <test-method signature="verifyDashboardPageURL()[pri:5, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-30T02:04:22 IST" name="verifyDashboardPageURL" finished-at="2023-12-30T02:04:32 IST" duration-ms="10009" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyDashboardPageURL -->
-        <test-method signature="verifySingOutText()[pri:6, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-30T02:04:32 IST" name="verifySingOutText" finished-at="2023-12-30T02:04:38 IST" duration-ms="5543" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySingOutText -->
-        <test-method signature="verifySingOutFromApp()[pri:7, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-30T02:04:38 IST" name="verifySingOutFromApp" finished-at="2023-12-30T02:04:43 IST" duration-ms="5212" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySingOutFromApp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-30T02:04:43 IST" name="tearDown" finished-at="2023-12-30T02:04:46 IST" duration-ms="3025" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.growpital.tests.LoginPageTest -->
-    </test> <!-- Login page test on Firefox -->
-    <test started-at="2023-12-30T02:04:34 IST" name="Sign Up page test on Firefox" finished-at="2023-12-30T02:04:59 IST" duration-ms="24954">
-      <class name="com.qa.growpital.tests.SignUpPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@432038ec]" started-at="2023-12-30T02:04:34 IST" name="setup" finished-at="2023-12-30T02:04:45 IST" duration-ms="11095" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.SignUpPageTest@432038ec]" started-at="2023-12-30T02:04:45 IST" name="verifyLoginPageTitle" finished-at="2023-12-30T02:04:45 IST" duration-ms="96" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginPageTitle -->
-        <test-method signature="verifySignUpPageURL()[pri:2, instance:com.qa.growpital.tests.SignUpPageTest@432038ec]" started-at="2023-12-30T02:04:45 IST" name="verifySignUpPageURL" finished-at="2023-12-30T02:04:55 IST" duration-ms="10416" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySignUpPageURL -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@432038ec]" started-at="2023-12-30T02:04:55 IST" name="tearDown" finished-at="2023-12-30T02:04:59 IST" duration-ms="3331" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.growpital.tests.SignUpPageTest -->
-    </test> <!-- Sign Up page test on Firefox -->
-    <test started-at="2023-12-30T02:04:30 IST" name="Sign Up page test on Chromium" finished-at="2023-12-30T02:05:01 IST" duration-ms="30927">
-      <class name="com.qa.growpital.tests.SignUpPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@1e8b7643]" started-at="2023-12-30T02:04:30 IST" name="setup" finished-at="2023-12-30T02:04:35 IST" duration-ms="4886" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@1e8b7643]" started-at="2023-12-30T03:28:37 IST" name="setup" finished-at="2023-12-30T03:28:40 IST" duration-ms="2991" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -307,23 +159,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.SignUpPageTest@1e8b7643]" started-at="2023-12-30T02:04:35 IST" name="verifyLoginPageTitle" finished-at="2023-12-30T02:04:35 IST" duration-ms="114" status="PASS">
+        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.SignUpPageTest@1e8b7643]" started-at="2023-12-30T03:28:40 IST" name="verifyLoginPageTitle" finished-at="2023-12-30T03:28:40 IST" duration-ms="141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitle -->
-        <test-method signature="verifySignUpPageURL()[pri:2, instance:com.qa.growpital.tests.SignUpPageTest@1e8b7643]" started-at="2023-12-30T02:04:35 IST" name="verifySignUpPageURL" finished-at="2023-12-30T02:04:50 IST" duration-ms="14739" status="PASS">
+        <test-method signature="verifySignUpPageURL()[pri:2, instance:com.qa.growpital.tests.SignUpPageTest@1e8b7643]" started-at="2023-12-30T03:28:40 IST" name="verifySignUpPageURL" finished-at="2023-12-30T03:28:50 IST" duration-ms="9800" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignUpPageURL -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@1e8b7643]" started-at="2023-12-30T02:04:50 IST" name="tearDown" finished-at="2023-12-30T02:05:01 IST" duration-ms="11171" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@1e8b7643]" started-at="2023-12-30T03:28:50 IST" name="tearDown" finished-at="2023-12-30T03:28:50 IST" duration-ms="415" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.growpital.tests.SignUpPageTest -->
     </test> <!-- Sign Up page test on Chromium -->
-    <test started-at="2023-12-30T02:04:46 IST" name="Sign Up page test on Edge" finished-at="2023-12-30T02:05:02 IST" duration-ms="15442">
-      <class name="com.qa.growpital.tests.SignUpPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@4671115f]" started-at="2023-12-30T02:04:46 IST" name="setup" finished-at="2023-12-30T02:04:54 IST" duration-ms="7765" status="PASS">
+    <test started-at="2023-12-30T03:27:54 IST" name="Login page test on Edge" finished-at="2023-12-30T03:28:53 IST" duration-ms="59165">
+      <class name="com.qa.growpital.tests.LoginPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-30T03:27:54 IST" name="setup" finished-at="2023-12-30T03:28:12 IST" duration-ms="17773" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -334,373 +186,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.SignUpPageTest@4671115f]" started-at="2023-12-30T02:04:54 IST" name="verifyLoginPageTitle" finished-at="2023-12-30T02:04:59 IST" duration-ms="5057" status="PASS">
+        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-30T03:28:12 IST" name="verifyLoginPageTitle" finished-at="2023-12-30T03:28:12 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitle -->
-        <test-method signature="verifySignUpPageURL()[pri:2, instance:com.qa.growpital.tests.SignUpPageTest@4671115f]" started-at="2023-12-30T02:04:59 IST" name="verifySignUpPageURL" finished-at="2023-12-30T02:05:00 IST" duration-ms="951" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySignUpPageURL -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@4671115f]" started-at="2023-12-30T02:05:00 IST" name="tearDown" finished-at="2023-12-30T02:05:02 IST" duration-ms="1661" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.growpital.tests.SignUpPageTest -->
-    </test> <!-- Sign Up page test on Edge -->
-    <test started-at="2023-12-30T02:04:45 IST" name="Sign Up page test on Chrome" finished-at="2023-12-30T02:05:03 IST" duration-ms="18494">
-      <class name="com.qa.growpital.tests.SignUpPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@5ddcc487]" started-at="2023-12-30T02:04:45 IST" name="setup" finished-at="2023-12-30T02:04:51 IST" duration-ms="6423" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.SignUpPageTest@5ddcc487]" started-at="2023-12-30T02:04:51 IST" name="verifyLoginPageTitle" finished-at="2023-12-30T02:04:57 IST" duration-ms="5541" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginPageTitle -->
-        <test-method signature="verifySignUpPageURL()[pri:2, instance:com.qa.growpital.tests.SignUpPageTest@5ddcc487]" started-at="2023-12-30T02:04:57 IST" name="verifySignUpPageURL" finished-at="2023-12-30T02:05:02 IST" duration-ms="5066" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySignUpPageURL -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@5ddcc487]" started-at="2023-12-30T02:05:02 IST" name="tearDown" finished-at="2023-12-30T02:05:03 IST" duration-ms="1448" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.growpital.tests.SignUpPageTest -->
-    </test> <!-- Sign Up page test on Chrome -->
-    <test started-at="2023-12-30T02:04:30 IST" name="Login page test on Headless" finished-at="2023-12-30T02:05:13 IST" duration-ms="43849">
-      <class name="com.qa.growpital.tests.LoginPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-30T02:04:30 IST" name="setup" finished-at="2023-12-30T02:04:32 IST" duration-ms="2952" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[headless]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-30T02:04:32 IST" name="verifyLoginPageTitle" finished-at="2023-12-30T02:04:33 IST" duration-ms="109" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginPageTitle -->
-        <test-method signature="verifyForgotPasswordLinkExist()[pri:2, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-30T02:04:33 IST" name="verifyForgotPasswordLinkExist" finished-at="2023-12-30T02:04:38 IST" duration-ms="5796" status="PASS">
+        <test-method signature="verifyForgotPasswordLinkExist()[pri:2, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-30T03:28:12 IST" name="verifyForgotPasswordLinkExist" finished-at="2023-12-30T03:28:19 IST" duration-ms="7484" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyForgotPasswordLinkExist -->
-        <test-method signature="verifySignUpLinkExist()[pri:3, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-30T02:04:38 IST" name="verifySignUpLinkExist" finished-at="2023-12-30T02:04:43 IST" duration-ms="5010" status="PASS">
+        <test-method signature="verifySignUpLinkExist()[pri:3, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-30T03:28:19 IST" name="verifySignUpLinkExist" finished-at="2023-12-30T03:28:24 IST" duration-ms="5028" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignUpLinkExist -->
-        <test-method signature="loginToGrowpital()[pri:4, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-30T02:04:43 IST" name="loginToGrowpital" finished-at="2023-12-30T02:04:53 IST" duration-ms="9232" status="PASS">
+        <test-method signature="loginToGrowpital()[pri:4, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-30T03:28:24 IST" name="loginToGrowpital" finished-at="2023-12-30T03:28:31 IST" duration-ms="6089" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToGrowpital -->
-        <test-method signature="verifyDashboardPageURL()[pri:5, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-30T02:04:53 IST" name="verifyDashboardPageURL" finished-at="2023-12-30T02:05:03 IST" duration-ms="10007" status="PASS">
+        <test-method signature="verifyDashboardPageURL()[pri:5, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-30T03:28:31 IST" name="verifyDashboardPageURL" finished-at="2023-12-30T03:28:41 IST" duration-ms="10008" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDashboardPageURL -->
-        <test-method signature="verifySingOutText()[pri:6, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-30T02:05:03 IST" name="verifySingOutText" finished-at="2023-12-30T02:05:08 IST" duration-ms="5416" status="PASS">
+        <test-method signature="verifySingOutText()[pri:6, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-30T03:28:41 IST" name="verifySingOutText" finished-at="2023-12-30T03:28:47 IST" duration-ms="5226" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySingOutText -->
-        <test-method signature="verifySingOutFromApp()[pri:7, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-30T02:05:08 IST" name="verifySingOutFromApp" finished-at="2023-12-30T02:05:13 IST" duration-ms="5089" status="PASS">
+        <test-method signature="verifySingOutFromApp()[pri:7, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-30T03:28:47 IST" name="verifySingOutFromApp" finished-at="2023-12-30T03:28:52 IST" duration-ms="5631" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySingOutFromApp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-30T02:05:13 IST" name="tearDown" finished-at="2023-12-30T02:05:13 IST" duration-ms="193" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.LoginPageTest@7393222f]" started-at="2023-12-30T03:28:52 IST" name="tearDown" finished-at="2023-12-30T03:28:53 IST" duration-ms="969" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.growpital.tests.LoginPageTest -->
-    </test> <!-- Login page test on Headless -->
-    <test started-at="2023-12-30T02:04:59 IST" name="Sign Up page test on Headless" finished-at="2023-12-30T02:05:14 IST" duration-ms="15510">
-      <class name="com.qa.growpital.tests.SignUpPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@36060e]" started-at="2023-12-30T02:04:59 IST" name="setup" finished-at="2023-12-30T02:05:02 IST" duration-ms="3235" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[headless]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.SignUpPageTest@36060e]" started-at="2023-12-30T02:05:02 IST" name="verifyLoginPageTitle" finished-at="2023-12-30T02:05:02 IST" duration-ms="34" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginPageTitle -->
-        <test-method signature="verifySignUpPageURL()[pri:2, instance:com.qa.growpital.tests.SignUpPageTest@36060e]" started-at="2023-12-30T02:05:02 IST" name="verifySignUpPageURL" finished-at="2023-12-30T02:05:14 IST" duration-ms="12074" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySignUpPageURL -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@36060e]" started-at="2023-12-30T02:05:14 IST" name="tearDown" finished-at="2023-12-30T02:05:14 IST" duration-ms="160" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.growpital.tests.SignUpPageTest -->
-    </test> <!-- Sign Up page test on Headless -->
-    <test started-at="2023-12-30T02:05:03 IST" name="Invest page test on Safari" finished-at="2023-12-30T02:06:01 IST" duration-ms="57812">
-      <class name="com.qa.growpital.tests.InvestPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T02:05:03 IST" name="setup" finished-at="2023-12-30T02:05:09 IST" duration-ms="6103" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[safari]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyDashboardPageTitle()[pri:1, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T02:05:09 IST" name="verifyDashboardPageTitle" finished-at="2023-12-30T02:05:33 IST" duration-ms="23662" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyDashboardPageTitle -->
-        <test-method signature="verifyInvestPageURL()[pri:2, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T02:05:33 IST" name="verifyInvestPageURL" finished-at="2023-12-30T02:05:34 IST" duration-ms="585" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyInvestPageURL -->
-        <test-method signature="verifyInvestPageTitle()[pri:3, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T02:05:34 IST" name="verifyInvestPageTitle" finished-at="2023-12-30T02:05:34 IST" duration-ms="201" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyInvestPageTitle -->
-        <test-method signature="verifySelectInvestmentPageURL()[pri:4, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T02:05:34 IST" name="verifySelectInvestmentPageURL" finished-at="2023-12-30T02:05:34 IST" duration-ms="693" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySelectInvestmentPageURL -->
-        <test-method signature="verifySubHeading()[pri:5, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T02:05:34 IST" name="verifySubHeading" finished-at="2023-12-30T02:05:34 IST" duration-ms="50" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySubHeading -->
-        <test-method signature="verifyUnitCalculationCardHead()[pri:6, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T02:05:34 IST" name="verifyUnitCalculationCardHead" finished-at="2023-12-30T02:05:35 IST" duration-ms="270" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUnitCalculationCardHead -->
-        <test-method signature="verifyContinueButtonIsDisabled()[pri:7, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T02:05:35 IST" name="verifyContinueButtonIsDisabled" finished-at="2023-12-30T02:05:35 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContinueButtonIsDisabled -->
-        <test-method signature="verifyContinueButtonIsEnabled()[pri:8, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T02:05:35 IST" name="verifyContinueButtonIsEnabled" finished-at="2023-12-30T02:05:36 IST" duration-ms="828" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContinueButtonIsEnabled -->
-        <test-method signature="verifyInvestmentPaymentPageURL()[pri:9, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T02:05:36 IST" name="verifyInvestmentPaymentPageURL" finished-at="2023-12-30T02:05:36 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyInvestmentPaymentPageURL -->
-        <test-method signature="verifyIsPaymentPageContinueButton()[pri:10, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T02:05:36 IST" name="verifyIsPaymentPageContinueButton" finished-at="2023-12-30T02:05:36 IST" duration-ms="49" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsPaymentPageContinueButton -->
-        <test-method signature="verifyPaymentMessage()[pri:11, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T02:05:36 IST" name="verifyPaymentMessage" finished-at="2023-12-30T02:05:36 IST" duration-ms="15" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPaymentMessage -->
-        <test-method signature="verifyConsentLetterPageURL()[pri:12, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T02:05:36 IST" name="verifyConsentLetterPageURL" finished-at="2023-12-30T02:05:36 IST" duration-ms="521" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyConsentLetterPageURL -->
-        <test-method signature="verifyMandatoryTextInfoBeforeSigningConsentLetter()[pri:13, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T02:05:36 IST" name="verifyMandatoryTextInfoBeforeSigningConsentLetter" finished-at="2023-12-30T02:05:36 IST" duration-ms="14" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMandatoryTextInfoBeforeSigningConsentLetter -->
-        <test-method signature="verifyPlanPurchaseText()[pri:14, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T02:05:36 IST" name="verifyPlanPurchaseText" finished-at="2023-12-30T02:05:48 IST" duration-ms="11559" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPlanPurchaseText -->
-        <test-method signature="verifyCancelPlanPageTitle()[pri:15, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T02:05:48 IST" name="verifyCancelPlanPageTitle" finished-at="2023-12-30T02:05:51 IST" duration-ms="3174" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCancelPlanPageTitle -->
-        <test-method signature="verifyStatusOfPlan()[pri:16, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T02:05:51 IST" name="verifyStatusOfPlan" finished-at="2023-12-30T02:06:01 IST" duration-ms="9936" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyStatusOfPlan -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T02:06:01 IST" name="tearDown" finished-at="2023-12-30T02:06:01 IST" duration-ms="67" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.growpital.tests.InvestPageTest -->
-    </test> <!-- Invest page test on Safari -->
-    <test started-at="2023-12-30T02:05:13 IST" name="Invest page test on Chrome" finished-at="2023-12-30T02:06:08 IST" duration-ms="54600">
-      <class name="com.qa.growpital.tests.InvestPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T02:05:13 IST" name="setup" finished-at="2023-12-30T02:05:19 IST" duration-ms="5406" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyDashboardPageTitle()[pri:1, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T02:05:19 IST" name="verifyDashboardPageTitle" finished-at="2023-12-30T02:05:30 IST" duration-ms="10947" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyDashboardPageTitle -->
-        <test-method signature="verifyInvestPageURL()[pri:2, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T02:05:30 IST" name="verifyInvestPageURL" finished-at="2023-12-30T02:05:32 IST" duration-ms="1911" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyInvestPageURL -->
-        <test-method signature="verifyInvestPageTitle()[pri:3, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T02:05:32 IST" name="verifyInvestPageTitle" finished-at="2023-12-30T02:05:32 IST" duration-ms="198" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyInvestPageTitle -->
-        <test-method signature="verifySelectInvestmentPageURL()[pri:4, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T02:05:32 IST" name="verifySelectInvestmentPageURL" finished-at="2023-12-30T02:05:37 IST" duration-ms="4654" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySelectInvestmentPageURL -->
-        <test-method signature="verifySubHeading()[pri:5, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T02:05:37 IST" name="verifySubHeading" finished-at="2023-12-30T02:05:37 IST" duration-ms="32" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySubHeading -->
-        <test-method signature="verifyUnitCalculationCardHead()[pri:6, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T02:05:37 IST" name="verifyUnitCalculationCardHead" finished-at="2023-12-30T02:05:37 IST" duration-ms="415" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUnitCalculationCardHead -->
-        <test-method signature="verifyContinueButtonIsDisabled()[pri:7, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T02:05:37 IST" name="verifyContinueButtonIsDisabled" finished-at="2023-12-30T02:05:37 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContinueButtonIsDisabled -->
-        <test-method signature="verifyContinueButtonIsEnabled()[pri:8, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T02:05:37 IST" name="verifyContinueButtonIsEnabled" finished-at="2023-12-30T02:05:39 IST" duration-ms="1784" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContinueButtonIsEnabled -->
-        <test-method signature="verifyInvestmentPaymentPageURL()[pri:9, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T02:05:39 IST" name="verifyInvestmentPaymentPageURL" finished-at="2023-12-30T02:05:44 IST" duration-ms="5004" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyInvestmentPaymentPageURL -->
-        <test-method signature="verifyIsPaymentPageContinueButton()[pri:10, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T02:05:44 IST" name="verifyIsPaymentPageContinueButton" finished-at="2023-12-30T02:05:44 IST" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsPaymentPageContinueButton -->
-        <test-method signature="verifyPaymentMessage()[pri:11, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T02:05:44 IST" name="verifyPaymentMessage" finished-at="2023-12-30T02:05:44 IST" duration-ms="16" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPaymentMessage -->
-        <test-method signature="verifyConsentLetterPageURL()[pri:12, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T02:05:44 IST" name="verifyConsentLetterPageURL" finished-at="2023-12-30T02:05:44 IST" duration-ms="130" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyConsentLetterPageURL -->
-        <test-method signature="verifyMandatoryTextInfoBeforeSigningConsentLetter()[pri:13, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T02:05:44 IST" name="verifyMandatoryTextInfoBeforeSigningConsentLetter" finished-at="2023-12-30T02:05:44 IST" duration-ms="183" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMandatoryTextInfoBeforeSigningConsentLetter -->
-        <test-method signature="verifyPlanPurchaseText()[pri:14, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T02:05:44 IST" name="verifyPlanPurchaseText" finished-at="2023-12-30T02:05:59 IST" duration-ms="14575" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPlanPurchaseText -->
-        <test-method signature="verifyCancelPlanPageTitle()[pri:15, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T02:05:59 IST" name="verifyCancelPlanPageTitle" finished-at="2023-12-30T02:06:02 IST" duration-ms="3477" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCancelPlanPageTitle -->
-        <test-method signature="verifyStatusOfPlan()[pri:16, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T02:06:02 IST" name="verifyStatusOfPlan" finished-at="2023-12-30T02:06:07 IST" duration-ms="4468" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyStatusOfPlan -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T02:06:07 IST" name="tearDown" finished-at="2023-12-30T02:06:08 IST" duration-ms="1314" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.growpital.tests.InvestPageTest -->
-    </test> <!-- Invest page test on Chrome -->
-    <test started-at="2023-12-30T02:05:14 IST" name="Invest page test on Edge" finished-at="2023-12-30T02:06:10 IST" duration-ms="55649">
-      <class name="com.qa.growpital.tests.InvestPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T02:05:14 IST" name="setup" finished-at="2023-12-30T02:05:21 IST" duration-ms="6635" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyDashboardPageTitle()[pri:1, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T02:05:21 IST" name="verifyDashboardPageTitle" finished-at="2023-12-30T02:05:32 IST" duration-ms="10779" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyDashboardPageTitle -->
-        <test-method signature="verifyInvestPageURL()[pri:2, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T02:05:32 IST" name="verifyInvestPageURL" finished-at="2023-12-30T02:05:36 IST" duration-ms="4053" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyInvestPageURL -->
-        <test-method signature="verifyInvestPageTitle()[pri:3, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T02:05:36 IST" name="verifyInvestPageTitle" finished-at="2023-12-30T02:05:36 IST" duration-ms="43" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyInvestPageTitle -->
-        <test-method signature="verifySelectInvestmentPageURL()[pri:4, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T02:05:36 IST" name="verifySelectInvestmentPageURL" finished-at="2023-12-30T02:05:39 IST" duration-ms="3313" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySelectInvestmentPageURL -->
-        <test-method signature="verifySubHeading()[pri:5, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T02:05:39 IST" name="verifySubHeading" finished-at="2023-12-30T02:05:44 IST" duration-ms="5010" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySubHeading -->
-        <test-method signature="verifyUnitCalculationCardHead()[pri:6, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T02:05:44 IST" name="verifyUnitCalculationCardHead" finished-at="2023-12-30T02:05:44 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUnitCalculationCardHead -->
-        <test-method signature="verifyContinueButtonIsDisabled()[pri:7, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T02:05:44 IST" name="verifyContinueButtonIsDisabled" finished-at="2023-12-30T02:05:44 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContinueButtonIsDisabled -->
-        <test-method signature="verifyContinueButtonIsEnabled()[pri:8, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T02:05:44 IST" name="verifyContinueButtonIsEnabled" finished-at="2023-12-30T02:05:46 IST" duration-ms="1475" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContinueButtonIsEnabled -->
-        <test-method signature="verifyInvestmentPaymentPageURL()[pri:9, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T02:05:46 IST" name="verifyInvestmentPaymentPageURL" finished-at="2023-12-30T02:05:46 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyInvestmentPaymentPageURL -->
-        <test-method signature="verifyIsPaymentPageContinueButton()[pri:10, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T02:05:46 IST" name="verifyIsPaymentPageContinueButton" finished-at="2023-12-30T02:05:46 IST" duration-ms="37" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsPaymentPageContinueButton -->
-        <test-method signature="verifyPaymentMessage()[pri:11, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T02:05:46 IST" name="verifyPaymentMessage" finished-at="2023-12-30T02:05:46 IST" duration-ms="15" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPaymentMessage -->
-        <test-method signature="verifyConsentLetterPageURL()[pri:12, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T02:05:46 IST" name="verifyConsentLetterPageURL" finished-at="2023-12-30T02:05:47 IST" duration-ms="829" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyConsentLetterPageURL -->
-        <test-method signature="verifyMandatoryTextInfoBeforeSigningConsentLetter()[pri:13, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T02:05:47 IST" name="verifyMandatoryTextInfoBeforeSigningConsentLetter" finished-at="2023-12-30T02:05:47 IST" duration-ms="270" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMandatoryTextInfoBeforeSigningConsentLetter -->
-        <test-method signature="verifyPlanPurchaseText()[pri:14, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T02:05:47 IST" name="verifyPlanPurchaseText" finished-at="2023-12-30T02:06:03 IST" duration-ms="15985" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPlanPurchaseText -->
-        <test-method signature="verifyCancelPlanPageTitle()[pri:15, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T02:06:03 IST" name="verifyCancelPlanPageTitle" finished-at="2023-12-30T02:06:06 IST" duration-ms="2808" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCancelPlanPageTitle -->
-        <test-method signature="verifyStatusOfPlan()[pri:16, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T02:06:06 IST" name="verifyStatusOfPlan" finished-at="2023-12-30T02:06:09 IST" duration-ms="3725" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyStatusOfPlan -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T02:06:09 IST" name="tearDown" finished-at="2023-12-30T02:06:10 IST" duration-ms="575" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.growpital.tests.InvestPageTest -->
-    </test> <!-- Invest page test on Edge -->
-    <test started-at="2023-12-30T02:05:02 IST" name="Invest page test on Firefox" finished-at="2023-12-30T02:06:15 IST" duration-ms="73936">
-      <class name="com.qa.growpital.tests.InvestPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T02:05:02 IST" name="setup" finished-at="2023-12-30T02:05:13 IST" duration-ms="11074" status="PASS">
+    </test> <!-- Login page test on Edge -->
+    <test started-at="2023-12-30T03:27:54 IST" name="Login page test on Firefox" finished-at="2023-12-30T03:28:55 IST" duration-ms="60813">
+      <class name="com.qa.growpital.tests.LoginPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-30T03:27:54 IST" name="setup" finished-at="2023-12-30T03:28:11 IST" duration-ms="16775" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -711,162 +233,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyDashboardPageTitle()[pri:1, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T02:05:13 IST" name="verifyDashboardPageTitle" finished-at="2023-12-30T02:05:28 IST" duration-ms="15747" status="PASS">
+        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-30T03:28:11 IST" name="verifyLoginPageTitle" finished-at="2023-12-30T03:28:12 IST" duration-ms="764" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyDashboardPageTitle -->
-        <test-method signature="verifyInvestPageURL()[pri:2, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T02:05:28 IST" name="verifyInvestPageURL" finished-at="2023-12-30T02:05:38 IST" duration-ms="9161" status="PASS">
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method signature="verifyForgotPasswordLinkExist()[pri:2, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-30T03:28:12 IST" name="verifyForgotPasswordLinkExist" finished-at="2023-12-30T03:28:19 IST" duration-ms="6790" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyInvestPageURL -->
-        <test-method signature="verifyInvestPageTitle()[pri:3, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T02:05:38 IST" name="verifyInvestPageTitle" finished-at="2023-12-30T02:05:38 IST" duration-ms="37" status="PASS">
+        </test-method> <!-- verifyForgotPasswordLinkExist -->
+        <test-method signature="verifySignUpLinkExist()[pri:3, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-30T03:28:19 IST" name="verifySignUpLinkExist" finished-at="2023-12-30T03:28:24 IST" duration-ms="5019" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyInvestPageTitle -->
-        <test-method signature="verifySelectInvestmentPageURL()[pri:4, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T02:05:38 IST" name="verifySelectInvestmentPageURL" finished-at="2023-12-30T02:05:40 IST" duration-ms="2821" status="PASS">
+        </test-method> <!-- verifySignUpLinkExist -->
+        <test-method signature="loginToGrowpital()[pri:4, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-30T03:28:24 IST" name="loginToGrowpital" finished-at="2023-12-30T03:28:30 IST" duration-ms="6588" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySelectInvestmentPageURL -->
-        <test-method signature="verifySubHeading()[pri:5, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T02:05:40 IST" name="verifySubHeading" finished-at="2023-12-30T02:05:45 IST" duration-ms="5021" status="PASS">
+        </test-method> <!-- loginToGrowpital -->
+        <test-method signature="verifyDashboardPageURL()[pri:5, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-30T03:28:31 IST" name="verifyDashboardPageURL" finished-at="2023-12-30T03:28:41 IST" duration-ms="10015" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySubHeading -->
-        <test-method signature="verifyUnitCalculationCardHead()[pri:6, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T02:05:45 IST" name="verifyUnitCalculationCardHead" finished-at="2023-12-30T02:05:45 IST" duration-ms="12" status="PASS">
+        </test-method> <!-- verifyDashboardPageURL -->
+        <test-method signature="verifySingOutText()[pri:6, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-30T03:28:41 IST" name="verifySingOutText" finished-at="2023-12-30T03:28:47 IST" duration-ms="5333" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyUnitCalculationCardHead -->
-        <test-method signature="verifyContinueButtonIsDisabled()[pri:7, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T02:05:45 IST" name="verifyContinueButtonIsDisabled" finished-at="2023-12-30T02:05:45 IST" duration-ms="12" status="PASS">
+        </test-method> <!-- verifySingOutText -->
+        <test-method signature="verifySingOutFromApp()[pri:7, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-30T03:28:47 IST" name="verifySingOutFromApp" finished-at="2023-12-30T03:28:52 IST" duration-ms="5338" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyContinueButtonIsDisabled -->
-        <test-method signature="verifyContinueButtonIsEnabled()[pri:8, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T02:05:45 IST" name="verifyContinueButtonIsEnabled" finished-at="2023-12-30T02:05:48 IST" duration-ms="2108" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContinueButtonIsEnabled -->
-        <test-method signature="verifyInvestmentPaymentPageURL()[pri:9, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T02:05:48 IST" name="verifyInvestmentPaymentPageURL" finished-at="2023-12-30T02:05:48 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyInvestmentPaymentPageURL -->
-        <test-method signature="verifyIsPaymentPageContinueButton()[pri:10, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T02:05:48 IST" name="verifyIsPaymentPageContinueButton" finished-at="2023-12-30T02:05:48 IST" duration-ms="323" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsPaymentPageContinueButton -->
-        <test-method signature="verifyPaymentMessage()[pri:11, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T02:05:48 IST" name="verifyPaymentMessage" finished-at="2023-12-30T02:05:48 IST" duration-ms="168" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPaymentMessage -->
-        <test-method signature="verifyConsentLetterPageURL()[pri:12, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T02:05:48 IST" name="verifyConsentLetterPageURL" finished-at="2023-12-30T02:05:49 IST" duration-ms="1080" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyConsentLetterPageURL -->
-        <test-method signature="verifyMandatoryTextInfoBeforeSigningConsentLetter()[pri:13, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T02:05:49 IST" name="verifyMandatoryTextInfoBeforeSigningConsentLetter" finished-at="2023-12-30T02:05:49 IST" duration-ms="265" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMandatoryTextInfoBeforeSigningConsentLetter -->
-        <test-method signature="verifyPlanPurchaseText()[pri:14, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T02:05:49 IST" name="verifyPlanPurchaseText" finished-at="2023-12-30T02:06:06 IST" duration-ms="16760" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPlanPurchaseText -->
-        <test-method signature="verifyCancelPlanPageTitle()[pri:15, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T02:06:06 IST" name="verifyCancelPlanPageTitle" finished-at="2023-12-30T02:06:12 IST" duration-ms="5355" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCancelPlanPageTitle -->
-        <test-method signature="verifyStatusOfPlan()[pri:16, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T02:06:12 IST" name="verifyStatusOfPlan" finished-at="2023-12-30T02:06:14 IST" duration-ms="2692" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyStatusOfPlan -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T02:06:14 IST" name="tearDown" finished-at="2023-12-30T02:06:15 IST" duration-ms="1238" status="PASS">
+        </test-method> <!-- verifySingOutFromApp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.LoginPageTest@2d778add]" started-at="2023-12-30T03:28:52 IST" name="tearDown" finished-at="2023-12-30T03:28:55 IST" duration-ms="2804" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.growpital.tests.InvestPageTest -->
-    </test> <!-- Invest page test on Firefox -->
-    <test started-at="2023-12-30T02:05:01 IST" name="Invest page test on Chromium" finished-at="2023-12-30T02:06:11 IST" duration-ms="69448">
-      <class name="com.qa.growpital.tests.InvestPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T02:05:01 IST" name="setup" finished-at="2023-12-30T02:05:11 IST" duration-ms="9558" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chromium]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyDashboardPageTitle()[pri:1, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T02:05:11 IST" name="verifyDashboardPageTitle" finished-at="2023-12-30T02:05:24 IST" duration-ms="13288" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyDashboardPageTitle -->
-        <test-method signature="verifyInvestPageURL()[pri:2, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T02:05:24 IST" name="verifyInvestPageURL" finished-at="2023-12-30T02:05:31 IST" duration-ms="6784" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyInvestPageURL -->
-        <test-method signature="verifyInvestPageTitle()[pri:3, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T02:05:31 IST" name="verifyInvestPageTitle" finished-at="2023-12-30T02:05:31 IST" duration-ms="174" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyInvestPageTitle -->
-        <test-method signature="verifySelectInvestmentPageURL()[pri:4, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T02:05:31 IST" name="verifySelectInvestmentPageURL" finished-at="2023-12-30T02:05:33 IST" duration-ms="2189" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySelectInvestmentPageURL -->
-        <test-method signature="verifySubHeading()[pri:5, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T02:05:33 IST" name="verifySubHeading" finished-at="2023-12-30T02:05:34 IST" duration-ms="419" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySubHeading -->
-        <test-method signature="verifyUnitCalculationCardHead()[pri:6, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T02:05:34 IST" name="verifyUnitCalculationCardHead" finished-at="2023-12-30T02:05:34 IST" duration-ms="72" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUnitCalculationCardHead -->
-        <test-method signature="verifyContinueButtonIsDisabled()[pri:7, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T02:05:34 IST" name="verifyContinueButtonIsDisabled" finished-at="2023-12-30T02:05:34 IST" duration-ms="20" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContinueButtonIsDisabled -->
-        <test-method signature="verifyContinueButtonIsEnabled()[pri:8, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T02:05:34 IST" name="verifyContinueButtonIsEnabled" finished-at="2023-12-30T02:05:37 IST" duration-ms="2988" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContinueButtonIsEnabled -->
-        <test-method signature="verifyInvestmentPaymentPageURL()[pri:9, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T02:05:37 IST" name="verifyInvestmentPaymentPageURL" finished-at="2023-12-30T02:05:37 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyInvestmentPaymentPageURL -->
-        <test-method signature="verifyIsPaymentPageContinueButton()[pri:10, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T02:05:37 IST" name="verifyIsPaymentPageContinueButton" finished-at="2023-12-30T02:05:37 IST" duration-ms="263" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsPaymentPageContinueButton -->
-        <test-method signature="verifyPaymentMessage()[pri:11, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T02:05:37 IST" name="verifyPaymentMessage" finished-at="2023-12-30T02:05:37 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPaymentMessage -->
-        <test-method signature="verifyConsentLetterPageURL()[pri:12, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T02:05:37 IST" name="verifyConsentLetterPageURL" finished-at="2023-12-30T02:05:38 IST" duration-ms="543" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyConsentLetterPageURL -->
-        <test-method signature="verifyMandatoryTextInfoBeforeSigningConsentLetter()[pri:13, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T02:05:38 IST" name="verifyMandatoryTextInfoBeforeSigningConsentLetter" finished-at="2023-12-30T02:05:38 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMandatoryTextInfoBeforeSigningConsentLetter -->
-        <test-method signature="verifyPlanPurchaseText()[pri:14, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T02:05:38 IST" name="verifyPlanPurchaseText" finished-at="2023-12-30T02:05:56 IST" duration-ms="18079" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPlanPurchaseText -->
-        <test-method signature="verifyCancelPlanPageTitle()[pri:15, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T02:05:56 IST" name="verifyCancelPlanPageTitle" finished-at="2023-12-30T02:06:03 IST" duration-ms="6665" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCancelPlanPageTitle -->
-        <test-method signature="verifyStatusOfPlan()[pri:16, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T02:06:03 IST" name="verifyStatusOfPlan" finished-at="2023-12-30T02:06:09 IST" duration-ms="6850" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyStatusOfPlan -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T02:06:09 IST" name="tearDown" finished-at="2023-12-30T02:06:11 IST" duration-ms="1466" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.growpital.tests.InvestPageTest -->
-    </test> <!-- Invest page test on Chromium -->
-    <test started-at="2023-12-30T02:06:02 IST" name="Invest page test on Headless" finished-at="2023-12-30T02:06:36 IST" duration-ms="34170">
-      <class name="com.qa.growpital.tests.InvestPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T02:06:02 IST" name="setup" finished-at="2023-12-30T02:06:08 IST" duration-ms="6258" status="PASS">
+      </class> <!-- com.qa.growpital.tests.LoginPageTest -->
+    </test> <!-- Login page test on Firefox -->
+    <test started-at="2023-12-30T03:28:31 IST" name="Login page test on Headless" finished-at="2023-12-30T03:29:06 IST" duration-ms="34422">
+      <class name="com.qa.growpital.tests.LoginPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-30T03:28:31 IST" name="setup" finished-at="2023-12-30T03:28:34 IST" duration-ms="2478" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -877,71 +280,668 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyDashboardPageTitle()[pri:1, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T02:06:08 IST" name="verifyDashboardPageTitle" finished-at="2023-12-30T02:06:18 IST" duration-ms="10537" status="PASS">
+        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-30T03:28:34 IST" name="verifyLoginPageTitle" finished-at="2023-12-30T03:28:39 IST" duration-ms="5023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method signature="verifyForgotPasswordLinkExist()[pri:2, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-30T03:28:39 IST" name="verifyForgotPasswordLinkExist" finished-at="2023-12-30T03:28:39 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPasswordLinkExist -->
+        <test-method signature="verifySignUpLinkExist()[pri:3, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-30T03:28:39 IST" name="verifySignUpLinkExist" finished-at="2023-12-30T03:28:39 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpLinkExist -->
+        <test-method signature="loginToGrowpital()[pri:4, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-30T03:28:39 IST" name="loginToGrowpital" finished-at="2023-12-30T03:28:45 IST" duration-ms="5689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToGrowpital -->
+        <test-method signature="verifyDashboardPageURL()[pri:5, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-30T03:28:45 IST" name="verifyDashboardPageURL" finished-at="2023-12-30T03:28:55 IST" duration-ms="10015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardPageURL -->
+        <test-method signature="verifySingOutText()[pri:6, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-30T03:28:55 IST" name="verifySingOutText" finished-at="2023-12-30T03:29:01 IST" duration-ms="5886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySingOutText -->
+        <test-method signature="verifySingOutFromApp()[pri:7, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-30T03:29:01 IST" name="verifySingOutFromApp" finished-at="2023-12-30T03:29:06 IST" duration-ms="5096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySingOutFromApp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.LoginPageTest@3688eb5b]" started-at="2023-12-30T03:29:06 IST" name="tearDown" finished-at="2023-12-30T03:29:06 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.growpital.tests.LoginPageTest -->
+    </test> <!-- Login page test on Headless -->
+    <test started-at="2023-12-30T03:28:43 IST" name="Sign Up page test on Firefox" finished-at="2023-12-30T03:29:06 IST" duration-ms="23790">
+      <class name="com.qa.growpital.tests.SignUpPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@432038ec]" started-at="2023-12-30T03:28:43 IST" name="setup" finished-at="2023-12-30T03:28:52 IST" duration-ms="8936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.SignUpPageTest@432038ec]" started-at="2023-12-30T03:28:52 IST" name="verifyLoginPageTitle" finished-at="2023-12-30T03:28:52 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method signature="verifySignUpPageURL()[pri:2, instance:com.qa.growpital.tests.SignUpPageTest@432038ec]" started-at="2023-12-30T03:28:52 IST" name="verifySignUpPageURL" finished-at="2023-12-30T03:29:04 IST" duration-ms="12307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpPageURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@432038ec]" started-at="2023-12-30T03:29:04 IST" name="tearDown" finished-at="2023-12-30T03:29:06 IST" duration-ms="2401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.growpital.tests.SignUpPageTest -->
+    </test> <!-- Sign Up page test on Firefox -->
+    <test started-at="2023-12-30T03:28:51 IST" name="Sign Up page test on Safari" finished-at="2023-12-30T03:29:03 IST" duration-ms="12047">
+      <class name="com.qa.growpital.tests.SignUpPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@35645047]" started-at="2023-12-30T03:28:51 IST" name="setup" finished-at="2023-12-30T03:28:56 IST" duration-ms="5513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.SignUpPageTest@35645047]" started-at="2023-12-30T03:28:56 IST" name="verifyLoginPageTitle" finished-at="2023-12-30T03:28:57 IST" duration-ms="467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method signature="verifySignUpPageURL()[pri:2, instance:com.qa.growpital.tests.SignUpPageTest@35645047]" started-at="2023-12-30T03:28:57 IST" name="verifySignUpPageURL" finished-at="2023-12-30T03:29:03 IST" duration-ms="5977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpPageURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@35645047]" started-at="2023-12-30T03:29:03 IST" name="tearDown" finished-at="2023-12-30T03:29:03 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.growpital.tests.SignUpPageTest -->
+    </test> <!-- Sign Up page test on Safari -->
+    <test started-at="2023-12-30T03:28:55 IST" name="Sign Up page test on Edge" finished-at="2023-12-30T03:29:14 IST" duration-ms="19288">
+      <class name="com.qa.growpital.tests.SignUpPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@4671115f]" started-at="2023-12-30T03:28:55 IST" name="setup" finished-at="2023-12-30T03:29:04 IST" duration-ms="9231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.SignUpPageTest@4671115f]" started-at="2023-12-30T03:29:04 IST" name="verifyLoginPageTitle" finished-at="2023-12-30T03:29:09 IST" duration-ms="5026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method signature="verifySignUpPageURL()[pri:2, instance:com.qa.growpital.tests.SignUpPageTest@4671115f]" started-at="2023-12-30T03:29:09 IST" name="verifySignUpPageURL" finished-at="2023-12-30T03:29:11 IST" duration-ms="2037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpPageURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@4671115f]" started-at="2023-12-30T03:29:11 IST" name="tearDown" finished-at="2023-12-30T03:29:14 IST" duration-ms="2985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.growpital.tests.SignUpPageTest -->
+    </test> <!-- Sign Up page test on Edge -->
+    <test started-at="2023-12-30T03:28:53 IST" name="Sign Up page test on Chrome" finished-at="2023-12-30T03:29:15 IST" duration-ms="21846">
+      <class name="com.qa.growpital.tests.SignUpPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@5ddcc487]" started-at="2023-12-30T03:28:53 IST" name="setup" finished-at="2023-12-30T03:29:02 IST" duration-ms="8689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.SignUpPageTest@5ddcc487]" started-at="2023-12-30T03:29:02 IST" name="verifyLoginPageTitle" finished-at="2023-12-30T03:29:07 IST" duration-ms="5027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method signature="verifySignUpPageURL()[pri:2, instance:com.qa.growpital.tests.SignUpPageTest@5ddcc487]" started-at="2023-12-30T03:29:07 IST" name="verifySignUpPageURL" finished-at="2023-12-30T03:29:13 IST" duration-ms="5433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpPageURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@5ddcc487]" started-at="2023-12-30T03:29:13 IST" name="tearDown" finished-at="2023-12-30T03:29:15 IST" duration-ms="2675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.growpital.tests.SignUpPageTest -->
+    </test> <!-- Sign Up page test on Chrome -->
+    <test started-at="2023-12-30T03:29:06 IST" name="Sign Up page test on Headless" finished-at="2023-12-30T03:29:20 IST" duration-ms="14406">
+      <class name="com.qa.growpital.tests.SignUpPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@36060e]" started-at="2023-12-30T03:29:06 IST" name="setup" finished-at="2023-12-30T03:29:10 IST" duration-ms="3944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[headless]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.growpital.tests.SignUpPageTest@36060e]" started-at="2023-12-30T03:29:10 IST" name="verifyLoginPageTitle" finished-at="2023-12-30T03:29:10 IST" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method signature="verifySignUpPageURL()[pri:2, instance:com.qa.growpital.tests.SignUpPageTest@36060e]" started-at="2023-12-30T03:29:10 IST" name="verifySignUpPageURL" finished-at="2023-12-30T03:29:20 IST" duration-ms="9936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpPageURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.SignUpPageTest@36060e]" started-at="2023-12-30T03:29:20 IST" name="tearDown" finished-at="2023-12-30T03:29:20 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.growpital.tests.SignUpPageTest -->
+    </test> <!-- Sign Up page test on Headless -->
+    <test started-at="2023-12-30T03:29:19 IST" name="Invest page test on Safari" finished-at="2023-12-30T03:30:08 IST" duration-ms="48494">
+      <class name="com.qa.growpital.tests.InvestPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T03:29:19 IST" name="setup" finished-at="2023-12-30T03:29:25 IST" duration-ms="5299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyDashboardPageTitle()[pri:1, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T03:29:25 IST" name="verifyDashboardPageTitle" finished-at="2023-12-30T03:29:38 IST" duration-ms="13106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDashboardPageTitle -->
-        <test-method signature="verifyInvestPageURL()[pri:2, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T02:06:18 IST" name="verifyInvestPageURL" finished-at="2023-12-30T02:06:18 IST" duration-ms="112" status="PASS">
+        <test-method signature="verifyInvestPageURL()[pri:2, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T03:29:38 IST" name="verifyInvestPageURL" finished-at="2023-12-30T03:29:38 IST" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyInvestPageURL -->
-        <test-method signature="verifyInvestPageTitle()[pri:3, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T02:06:18 IST" name="verifyInvestPageTitle" finished-at="2023-12-30T02:06:18 IST" duration-ms="11" status="PASS">
+        <test-method signature="verifyInvestPageTitle()[pri:3, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T03:29:38 IST" name="verifyInvestPageTitle" finished-at="2023-12-30T03:29:40 IST" duration-ms="2288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyInvestPageTitle -->
-        <test-method signature="verifySelectInvestmentPageURL()[pri:4, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T02:06:18 IST" name="verifySelectInvestmentPageURL" finished-at="2023-12-30T02:06:19 IST" duration-ms="455" status="PASS">
+        <test-method signature="verifySelectInvestmentPageURL()[pri:4, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T03:29:40 IST" name="verifySelectInvestmentPageURL" finished-at="2023-12-30T03:29:46 IST" duration-ms="5245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySelectInvestmentPageURL -->
-        <test-method signature="verifySubHeading()[pri:5, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T02:06:19 IST" name="verifySubHeading" finished-at="2023-12-30T02:06:19 IST" duration-ms="18" status="PASS">
+        <test-method signature="verifySubHeading()[pri:5, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T03:29:46 IST" name="verifySubHeading" finished-at="2023-12-30T03:29:46 IST" duration-ms="59" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySubHeading -->
-        <test-method signature="verifyUnitCalculationCardHead()[pri:6, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T02:06:19 IST" name="verifyUnitCalculationCardHead" finished-at="2023-12-30T02:06:19 IST" duration-ms="31" status="PASS">
+        <test-method signature="verifyUnitCalculationCardHead()[pri:6, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T03:29:46 IST" name="verifyUnitCalculationCardHead" finished-at="2023-12-30T03:29:46 IST" duration-ms="57" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUnitCalculationCardHead -->
-        <test-method signature="verifyContinueButtonIsDisabled()[pri:7, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T02:06:19 IST" name="verifyContinueButtonIsDisabled" finished-at="2023-12-30T02:06:19 IST" duration-ms="26" status="PASS">
+        <test-method signature="verifyContinueButtonIsDisabled()[pri:7, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T03:29:46 IST" name="verifyContinueButtonIsDisabled" finished-at="2023-12-30T03:29:46 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContinueButtonIsDisabled -->
-        <test-method signature="verifyContinueButtonIsEnabled()[pri:8, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T02:06:19 IST" name="verifyContinueButtonIsEnabled" finished-at="2023-12-30T02:06:20 IST" duration-ms="556" status="PASS">
+        <test-method signature="verifyContinueButtonIsEnabled()[pri:8, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T03:29:46 IST" name="verifyContinueButtonIsEnabled" finished-at="2023-12-30T03:29:46 IST" duration-ms="477" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContinueButtonIsEnabled -->
-        <test-method signature="verifyInvestmentPaymentPageURL()[pri:9, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T02:06:20 IST" name="verifyInvestmentPaymentPageURL" finished-at="2023-12-30T02:06:20 IST" duration-ms="1" status="PASS">
+        <test-method signature="verifyInvestmentPaymentPageURL()[pri:9, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T03:29:46 IST" name="verifyInvestmentPaymentPageURL" finished-at="2023-12-30T03:29:46 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyInvestmentPaymentPageURL -->
-        <test-method signature="verifyIsPaymentPageContinueButton()[pri:10, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T02:06:20 IST" name="verifyIsPaymentPageContinueButton" finished-at="2023-12-30T02:06:20 IST" duration-ms="14" status="PASS">
+        <test-method signature="verifyIsPaymentPageContinueButton()[pri:10, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T03:29:46 IST" name="verifyIsPaymentPageContinueButton" finished-at="2023-12-30T03:29:46 IST" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsPaymentPageContinueButton -->
-        <test-method signature="verifyPaymentMessage()[pri:11, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T02:06:20 IST" name="verifyPaymentMessage" finished-at="2023-12-30T02:06:20 IST" duration-ms="6" status="PASS">
+        <test-method signature="verifyPaymentMessage()[pri:11, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T03:29:46 IST" name="verifyPaymentMessage" finished-at="2023-12-30T03:29:46 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPaymentMessage -->
-        <test-method signature="verifyConsentLetterPageURL()[pri:12, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T02:06:20 IST" name="verifyConsentLetterPageURL" finished-at="2023-12-30T02:06:20 IST" duration-ms="102" status="PASS">
+        <test-method signature="verifyConsentLetterPageURL()[pri:12, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T03:29:46 IST" name="verifyConsentLetterPageURL" finished-at="2023-12-30T03:29:46 IST" duration-ms="171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyConsentLetterPageURL -->
-        <test-method signature="verifyMandatoryTextInfoBeforeSigningConsentLetter()[pri:13, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T02:06:20 IST" name="verifyMandatoryTextInfoBeforeSigningConsentLetter" finished-at="2023-12-30T02:06:20 IST" duration-ms="5" status="PASS">
+        <test-method signature="verifyMandatoryTextInfoBeforeSigningConsentLetter()[pri:13, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T03:29:46 IST" name="verifyMandatoryTextInfoBeforeSigningConsentLetter" finished-at="2023-12-30T03:29:46 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMandatoryTextInfoBeforeSigningConsentLetter -->
-        <test-method signature="verifyPlanPurchaseText()[pri:14, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T02:06:20 IST" name="verifyPlanPurchaseText" finished-at="2023-12-30T02:06:28 IST" duration-ms="8228" status="PASS">
+        <test-method signature="verifyPlanPurchaseText()[pri:14, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T03:29:46 IST" name="verifyPlanPurchaseText" finished-at="2023-12-30T03:29:59 IST" duration-ms="12839" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPlanPurchaseText -->
-        <test-method signature="verifyCancelPlanPageTitle()[pri:15, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T02:06:28 IST" name="verifyCancelPlanPageTitle" finished-at="2023-12-30T02:06:33 IST" duration-ms="5203" status="PASS">
+        <test-method signature="verifyCancelPlanPageTitle()[pri:15, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T03:29:59 IST" name="verifyCancelPlanPageTitle" finished-at="2023-12-30T03:30:03 IST" duration-ms="3313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCancelPlanPageTitle -->
-        <test-method signature="verifyStatusOfPlan()[pri:16, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T02:06:33 IST" name="verifyStatusOfPlan" finished-at="2023-12-30T02:06:36 IST" duration-ms="2434" status="PASS">
+        <test-method signature="verifyStatusOfPlan()[pri:16, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T03:30:03 IST" name="verifyStatusOfPlan" finished-at="2023-12-30T03:30:08 IST" duration-ms="5056" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyStatusOfPlan -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T02:06:36 IST" name="tearDown" finished-at="2023-12-30T02:06:36 IST" duration-ms="101" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.InvestPageTest@479460a6]" started-at="2023-12-30T03:30:08 IST" name="tearDown" finished-at="2023-12-30T03:30:08 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.growpital.tests.InvestPageTest -->
+    </test> <!-- Invest page test on Safari -->
+    <test started-at="2023-12-30T03:29:07 IST" name="Invest page test on Chromium" finished-at="2023-12-30T03:30:20 IST" duration-ms="73679">
+      <class name="com.qa.growpital.tests.InvestPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T03:29:07 IST" name="setup" finished-at="2023-12-30T03:29:16 IST" duration-ms="9018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyDashboardPageTitle()[pri:1, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T03:29:16 IST" name="verifyDashboardPageTitle" finished-at="2023-12-30T03:29:30 IST" duration-ms="14558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardPageTitle -->
+        <test-method signature="verifyInvestPageURL()[pri:2, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T03:29:30 IST" name="verifyInvestPageURL" finished-at="2023-12-30T03:29:35 IST" duration-ms="5245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvestPageURL -->
+        <test-method signature="verifyInvestPageTitle()[pri:3, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T03:29:35 IST" name="verifyInvestPageTitle" finished-at="2023-12-30T03:29:37 IST" duration-ms="2026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvestPageTitle -->
+        <test-method signature="verifySelectInvestmentPageURL()[pri:4, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T03:29:37 IST" name="verifySelectInvestmentPageURL" finished-at="2023-12-30T03:29:39 IST" duration-ms="1749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectInvestmentPageURL -->
+        <test-method signature="verifySubHeading()[pri:5, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T03:29:39 IST" name="verifySubHeading" finished-at="2023-12-30T03:29:39 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubHeading -->
+        <test-method signature="verifyUnitCalculationCardHead()[pri:6, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T03:29:39 IST" name="verifyUnitCalculationCardHead" finished-at="2023-12-30T03:29:39 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnitCalculationCardHead -->
+        <test-method signature="verifyContinueButtonIsDisabled()[pri:7, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T03:29:39 IST" name="verifyContinueButtonIsDisabled" finished-at="2023-12-30T03:29:39 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContinueButtonIsDisabled -->
+        <test-method signature="verifyContinueButtonIsEnabled()[pri:8, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T03:29:39 IST" name="verifyContinueButtonIsEnabled" finished-at="2023-12-30T03:29:41 IST" duration-ms="2090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContinueButtonIsEnabled -->
+        <test-method signature="verifyInvestmentPaymentPageURL()[pri:9, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T03:29:41 IST" name="verifyInvestmentPaymentPageURL" finished-at="2023-12-30T03:29:46 IST" duration-ms="5004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvestmentPaymentPageURL -->
+        <test-method signature="verifyIsPaymentPageContinueButton()[pri:10, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T03:29:46 IST" name="verifyIsPaymentPageContinueButton" finished-at="2023-12-30T03:29:46 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsPaymentPageContinueButton -->
+        <test-method signature="verifyPaymentMessage()[pri:11, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T03:29:46 IST" name="verifyPaymentMessage" finished-at="2023-12-30T03:29:46 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaymentMessage -->
+        <test-method signature="verifyConsentLetterPageURL()[pri:12, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T03:29:46 IST" name="verifyConsentLetterPageURL" finished-at="2023-12-30T03:29:47 IST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConsentLetterPageURL -->
+        <test-method signature="verifyMandatoryTextInfoBeforeSigningConsentLetter()[pri:13, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T03:29:47 IST" name="verifyMandatoryTextInfoBeforeSigningConsentLetter" finished-at="2023-12-30T03:29:47 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMandatoryTextInfoBeforeSigningConsentLetter -->
+        <test-method signature="verifyPlanPurchaseText()[pri:14, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T03:29:47 IST" name="verifyPlanPurchaseText" finished-at="2023-12-30T03:30:01 IST" duration-ms="14685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPlanPurchaseText -->
+        <test-method signature="verifyCancelPlanPageTitle()[pri:15, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T03:30:01 IST" name="verifyCancelPlanPageTitle" finished-at="2023-12-30T03:30:09 IST" duration-ms="7879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCancelPlanPageTitle -->
+        <test-method signature="verifyStatusOfPlan()[pri:16, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T03:30:09 IST" name="verifyStatusOfPlan" finished-at="2023-12-30T03:30:19 IST" duration-ms="9836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusOfPlan -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.InvestPageTest@74bf1791]" started-at="2023-12-30T03:30:19 IST" name="tearDown" finished-at="2023-12-30T03:30:20 IST" duration-ms="1159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.growpital.tests.InvestPageTest -->
+    </test> <!-- Invest page test on Chromium -->
+    <test started-at="2023-12-30T03:29:20 IST" name="Invest page test on Edge" finished-at="2023-12-30T03:30:28 IST" duration-ms="67851">
+      <class name="com.qa.growpital.tests.InvestPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T03:29:20 IST" name="setup" finished-at="2023-12-30T03:29:29 IST" duration-ms="8929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyDashboardPageTitle()[pri:1, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T03:29:29 IST" name="verifyDashboardPageTitle" finished-at="2023-12-30T03:29:43 IST" duration-ms="13545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardPageTitle -->
+        <test-method signature="verifyInvestPageURL()[pri:2, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T03:29:43 IST" name="verifyInvestPageURL" finished-at="2023-12-30T03:29:49 IST" duration-ms="6282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvestPageURL -->
+        <test-method signature="verifyInvestPageTitle()[pri:3, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T03:29:49 IST" name="verifyInvestPageTitle" finished-at="2023-12-30T03:29:51 IST" duration-ms="2035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvestPageTitle -->
+        <test-method signature="verifySelectInvestmentPageURL()[pri:4, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T03:29:51 IST" name="verifySelectInvestmentPageURL" finished-at="2023-12-30T03:29:52 IST" duration-ms="1220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectInvestmentPageURL -->
+        <test-method signature="verifySubHeading()[pri:5, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T03:29:52 IST" name="verifySubHeading" finished-at="2023-12-30T03:29:52 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubHeading -->
+        <test-method signature="verifyUnitCalculationCardHead()[pri:6, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T03:29:52 IST" name="verifyUnitCalculationCardHead" finished-at="2023-12-30T03:29:52 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnitCalculationCardHead -->
+        <test-method signature="verifyContinueButtonIsDisabled()[pri:7, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T03:29:52 IST" name="verifyContinueButtonIsDisabled" finished-at="2023-12-30T03:29:53 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContinueButtonIsDisabled -->
+        <test-method signature="verifyContinueButtonIsEnabled()[pri:8, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T03:29:53 IST" name="verifyContinueButtonIsEnabled" finished-at="2023-12-30T03:29:54 IST" duration-ms="1541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContinueButtonIsEnabled -->
+        <test-method signature="verifyInvestmentPaymentPageURL()[pri:9, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T03:29:54 IST" name="verifyInvestmentPaymentPageURL" finished-at="2023-12-30T03:29:59 IST" duration-ms="5011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvestmentPaymentPageURL -->
+        <test-method signature="verifyIsPaymentPageContinueButton()[pri:10, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T03:29:59 IST" name="verifyIsPaymentPageContinueButton" finished-at="2023-12-30T03:29:59 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsPaymentPageContinueButton -->
+        <test-method signature="verifyPaymentMessage()[pri:11, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T03:29:59 IST" name="verifyPaymentMessage" finished-at="2023-12-30T03:29:59 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaymentMessage -->
+        <test-method signature="verifyConsentLetterPageURL()[pri:12, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T03:29:59 IST" name="verifyConsentLetterPageURL" finished-at="2023-12-30T03:30:00 IST" duration-ms="477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConsentLetterPageURL -->
+        <test-method signature="verifyMandatoryTextInfoBeforeSigningConsentLetter()[pri:13, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T03:30:00 IST" name="verifyMandatoryTextInfoBeforeSigningConsentLetter" finished-at="2023-12-30T03:30:00 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMandatoryTextInfoBeforeSigningConsentLetter -->
+        <test-method signature="verifyPlanPurchaseText()[pri:14, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T03:30:00 IST" name="verifyPlanPurchaseText" finished-at="2023-12-30T03:30:16 IST" duration-ms="15815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPlanPurchaseText -->
+        <test-method signature="verifyCancelPlanPageTitle()[pri:15, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T03:30:16 IST" name="verifyCancelPlanPageTitle" finished-at="2023-12-30T03:30:20 IST" duration-ms="3881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCancelPlanPageTitle -->
+        <test-method signature="verifyStatusOfPlan()[pri:16, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T03:30:20 IST" name="verifyStatusOfPlan" finished-at="2023-12-30T03:30:28 IST" duration-ms="8134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusOfPlan -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.InvestPageTest@338c99c8]" started-at="2023-12-30T03:30:28 IST" name="tearDown" finished-at="2023-12-30T03:30:28 IST" duration-ms="522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.growpital.tests.InvestPageTest -->
+    </test> <!-- Invest page test on Edge -->
+    <test started-at="2023-12-30T03:29:08 IST" name="Invest page test on Firefox" finished-at="2023-12-30T03:30:31 IST" duration-ms="83551">
+      <class name="com.qa.growpital.tests.InvestPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T03:29:08 IST" name="setup" finished-at="2023-12-30T03:29:19 IST" duration-ms="11756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyDashboardPageTitle()[pri:1, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T03:29:19 IST" name="verifyDashboardPageTitle" finished-at="2023-12-30T03:29:40 IST" duration-ms="20152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardPageTitle -->
+        <test-method signature="verifyInvestPageURL()[pri:2, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T03:29:40 IST" name="verifyInvestPageURL" finished-at="2023-12-30T03:29:41 IST" duration-ms="1873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvestPageURL -->
+        <test-method signature="verifyInvestPageTitle()[pri:3, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T03:29:41 IST" name="verifyInvestPageTitle" finished-at="2023-12-30T03:29:48 IST" duration-ms="7025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvestPageTitle -->
+        <test-method signature="verifySelectInvestmentPageURL()[pri:4, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T03:29:48 IST" name="verifySelectInvestmentPageURL" finished-at="2023-12-30T03:29:51 IST" duration-ms="2527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectInvestmentPageURL -->
+        <test-method signature="verifySubHeading()[pri:5, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T03:29:51 IST" name="verifySubHeading" finished-at="2023-12-30T03:29:51 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubHeading -->
+        <test-method signature="verifyUnitCalculationCardHead()[pri:6, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T03:29:51 IST" name="verifyUnitCalculationCardHead" finished-at="2023-12-30T03:29:51 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnitCalculationCardHead -->
+        <test-method signature="verifyContinueButtonIsDisabled()[pri:7, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T03:29:51 IST" name="verifyContinueButtonIsDisabled" finished-at="2023-12-30T03:29:51 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContinueButtonIsDisabled -->
+        <test-method signature="verifyContinueButtonIsEnabled()[pri:8, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T03:29:51 IST" name="verifyContinueButtonIsEnabled" finished-at="2023-12-30T03:29:53 IST" duration-ms="1765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContinueButtonIsEnabled -->
+        <test-method signature="verifyInvestmentPaymentPageURL()[pri:9, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T03:29:53 IST" name="verifyInvestmentPaymentPageURL" finished-at="2023-12-30T03:29:58 IST" duration-ms="5004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvestmentPaymentPageURL -->
+        <test-method signature="verifyIsPaymentPageContinueButton()[pri:10, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T03:29:58 IST" name="verifyIsPaymentPageContinueButton" finished-at="2023-12-30T03:29:58 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsPaymentPageContinueButton -->
+        <test-method signature="verifyPaymentMessage()[pri:11, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T03:29:58 IST" name="verifyPaymentMessage" finished-at="2023-12-30T03:29:58 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaymentMessage -->
+        <test-method signature="verifyConsentLetterPageURL()[pri:12, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T03:29:58 IST" name="verifyConsentLetterPageURL" finished-at="2023-12-30T03:29:58 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConsentLetterPageURL -->
+        <test-method signature="verifyMandatoryTextInfoBeforeSigningConsentLetter()[pri:13, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T03:29:58 IST" name="verifyMandatoryTextInfoBeforeSigningConsentLetter" finished-at="2023-12-30T03:29:58 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMandatoryTextInfoBeforeSigningConsentLetter -->
+        <test-method signature="verifyPlanPurchaseText()[pri:14, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T03:29:58 IST" name="verifyPlanPurchaseText" finished-at="2023-12-30T03:30:16 IST" duration-ms="17546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPlanPurchaseText -->
+        <test-method signature="verifyCancelPlanPageTitle()[pri:15, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T03:30:16 IST" name="verifyCancelPlanPageTitle" finished-at="2023-12-30T03:30:22 IST" duration-ms="6064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCancelPlanPageTitle -->
+        <test-method signature="verifyStatusOfPlan()[pri:16, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T03:30:22 IST" name="verifyStatusOfPlan" finished-at="2023-12-30T03:30:30 IST" duration-ms="8093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusOfPlan -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.InvestPageTest@49c66ade]" started-at="2023-12-30T03:30:30 IST" name="tearDown" finished-at="2023-12-30T03:30:31 IST" duration-ms="1130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.growpital.tests.InvestPageTest -->
+    </test> <!-- Invest page test on Firefox -->
+    <test started-at="2023-12-30T03:29:20 IST" name="Invest page test on Chrome" finished-at="2023-12-30T03:30:31 IST" duration-ms="71134">
+      <class name="com.qa.growpital.tests.InvestPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T03:29:20 IST" name="setup" finished-at="2023-12-30T03:29:27 IST" duration-ms="6624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyDashboardPageTitle()[pri:1, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T03:29:27 IST" name="verifyDashboardPageTitle" finished-at="2023-12-30T03:29:43 IST" duration-ms="15736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardPageTitle -->
+        <test-method signature="verifyInvestPageURL()[pri:2, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T03:29:43 IST" name="verifyInvestPageURL" finished-at="2023-12-30T03:29:48 IST" duration-ms="5521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvestPageURL -->
+        <test-method signature="verifyInvestPageTitle()[pri:3, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T03:29:48 IST" name="verifyInvestPageTitle" finished-at="2023-12-30T03:29:50 IST" duration-ms="2147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvestPageTitle -->
+        <test-method signature="verifySelectInvestmentPageURL()[pri:4, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T03:29:50 IST" name="verifySelectInvestmentPageURL" finished-at="2023-12-30T03:29:52 IST" duration-ms="1764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectInvestmentPageURL -->
+        <test-method signature="verifySubHeading()[pri:5, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T03:29:52 IST" name="verifySubHeading" finished-at="2023-12-30T03:29:52 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubHeading -->
+        <test-method signature="verifyUnitCalculationCardHead()[pri:6, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T03:29:52 IST" name="verifyUnitCalculationCardHead" finished-at="2023-12-30T03:29:52 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnitCalculationCardHead -->
+        <test-method signature="verifyContinueButtonIsDisabled()[pri:7, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T03:29:52 IST" name="verifyContinueButtonIsDisabled" finished-at="2023-12-30T03:29:53 IST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContinueButtonIsDisabled -->
+        <test-method signature="verifyContinueButtonIsEnabled()[pri:8, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T03:29:53 IST" name="verifyContinueButtonIsEnabled" finished-at="2023-12-30T03:29:54 IST" duration-ms="1716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContinueButtonIsEnabled -->
+        <test-method signature="verifyInvestmentPaymentPageURL()[pri:9, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T03:29:54 IST" name="verifyInvestmentPaymentPageURL" finished-at="2023-12-30T03:29:59 IST" duration-ms="5005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvestmentPaymentPageURL -->
+        <test-method signature="verifyIsPaymentPageContinueButton()[pri:10, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T03:29:59 IST" name="verifyIsPaymentPageContinueButton" finished-at="2023-12-30T03:29:59 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsPaymentPageContinueButton -->
+        <test-method signature="verifyPaymentMessage()[pri:11, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T03:29:59 IST" name="verifyPaymentMessage" finished-at="2023-12-30T03:29:59 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaymentMessage -->
+        <test-method signature="verifyConsentLetterPageURL()[pri:12, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T03:29:59 IST" name="verifyConsentLetterPageURL" finished-at="2023-12-30T03:30:00 IST" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConsentLetterPageURL -->
+        <test-method signature="verifyMandatoryTextInfoBeforeSigningConsentLetter()[pri:13, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T03:30:00 IST" name="verifyMandatoryTextInfoBeforeSigningConsentLetter" finished-at="2023-12-30T03:30:00 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMandatoryTextInfoBeforeSigningConsentLetter -->
+        <test-method signature="verifyPlanPurchaseText()[pri:14, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T03:30:00 IST" name="verifyPlanPurchaseText" finished-at="2023-12-30T03:30:15 IST" duration-ms="14847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPlanPurchaseText -->
+        <test-method signature="verifyCancelPlanPageTitle()[pri:15, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T03:30:15 IST" name="verifyCancelPlanPageTitle" finished-at="2023-12-30T03:30:20 IST" duration-ms="4934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCancelPlanPageTitle -->
+        <test-method signature="verifyStatusOfPlan()[pri:16, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T03:30:20 IST" name="verifyStatusOfPlan" finished-at="2023-12-30T03:30:31 IST" duration-ms="11165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusOfPlan -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.InvestPageTest@68702e03]" started-at="2023-12-30T03:30:31 IST" name="tearDown" finished-at="2023-12-30T03:30:31 IST" duration-ms="532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.growpital.tests.InvestPageTest -->
+    </test> <!-- Invest page test on Chrome -->
+    <test started-at="2023-12-30T03:30:13 IST" name="Invest page test on Headless" finished-at="2023-12-30T03:30:54 IST" duration-ms="41476">
+      <class name="com.qa.growpital.tests.InvestPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T03:30:13 IST" name="setup" finished-at="2023-12-30T03:30:16 IST" duration-ms="3272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[headless]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyDashboardPageTitle()[pri:1, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T03:30:16 IST" name="verifyDashboardPageTitle" finished-at="2023-12-30T03:30:29 IST" duration-ms="13035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardPageTitle -->
+        <test-method signature="verifyInvestPageURL()[pri:2, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T03:30:29 IST" name="verifyInvestPageURL" finished-at="2023-12-30T03:30:29 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvestPageURL -->
+        <test-method signature="verifyInvestPageTitle()[pri:3, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T03:30:29 IST" name="verifyInvestPageTitle" finished-at="2023-12-30T03:30:31 IST" duration-ms="2005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvestPageTitle -->
+        <test-method signature="verifySelectInvestmentPageURL()[pri:4, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T03:30:31 IST" name="verifySelectInvestmentPageURL" finished-at="2023-12-30T03:30:32 IST" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectInvestmentPageURL -->
+        <test-method signature="verifySubHeading()[pri:5, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T03:30:32 IST" name="verifySubHeading" finished-at="2023-12-30T03:30:37 IST" duration-ms="5009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubHeading -->
+        <test-method signature="verifyUnitCalculationCardHead()[pri:6, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T03:30:37 IST" name="verifyUnitCalculationCardHead" finished-at="2023-12-30T03:30:37 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnitCalculationCardHead -->
+        <test-method signature="verifyContinueButtonIsDisabled()[pri:7, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T03:30:37 IST" name="verifyContinueButtonIsDisabled" finished-at="2023-12-30T03:30:37 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContinueButtonIsDisabled -->
+        <test-method signature="verifyContinueButtonIsEnabled()[pri:8, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T03:30:37 IST" name="verifyContinueButtonIsEnabled" finished-at="2023-12-30T03:30:38 IST" duration-ms="626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContinueButtonIsEnabled -->
+        <test-method signature="verifyInvestmentPaymentPageURL()[pri:9, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T03:30:38 IST" name="verifyInvestmentPaymentPageURL" finished-at="2023-12-30T03:30:38 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvestmentPaymentPageURL -->
+        <test-method signature="verifyIsPaymentPageContinueButton()[pri:10, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T03:30:38 IST" name="verifyIsPaymentPageContinueButton" finished-at="2023-12-30T03:30:38 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsPaymentPageContinueButton -->
+        <test-method signature="verifyPaymentMessage()[pri:11, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T03:30:38 IST" name="verifyPaymentMessage" finished-at="2023-12-30T03:30:38 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaymentMessage -->
+        <test-method signature="verifyConsentLetterPageURL()[pri:12, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T03:30:38 IST" name="verifyConsentLetterPageURL" finished-at="2023-12-30T03:30:38 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConsentLetterPageURL -->
+        <test-method signature="verifyMandatoryTextInfoBeforeSigningConsentLetter()[pri:13, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T03:30:38 IST" name="verifyMandatoryTextInfoBeforeSigningConsentLetter" finished-at="2023-12-30T03:30:38 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMandatoryTextInfoBeforeSigningConsentLetter -->
+        <test-method signature="verifyPlanPurchaseText()[pri:14, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T03:30:38 IST" name="verifyPlanPurchaseText" finished-at="2023-12-30T03:30:46 IST" duration-ms="8272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPlanPurchaseText -->
+        <test-method signature="verifyCancelPlanPageTitle()[pri:15, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T03:30:46 IST" name="verifyCancelPlanPageTitle" finished-at="2023-12-30T03:30:51 IST" duration-ms="5175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCancelPlanPageTitle -->
+        <test-method signature="verifyStatusOfPlan()[pri:16, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T03:30:51 IST" name="verifyStatusOfPlan" finished-at="2023-12-30T03:30:54 IST" duration-ms="2921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusOfPlan -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.growpital.tests.InvestPageTest@2796aeae]" started-at="2023-12-30T03:30:54 IST" name="tearDown" finished-at="2023-12-30T03:30:54 IST" duration-ms="113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

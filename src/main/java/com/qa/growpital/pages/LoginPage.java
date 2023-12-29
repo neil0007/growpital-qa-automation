@@ -22,7 +22,7 @@ public class LoginPage {
 	
 	//page actions/methods:
 	public String getLoginPageTitle() throws InterruptedException {
-		page.waitForLoadState();
+		
 		String title =  page.title();
 		System.out.println("page title: " + title);
 		return title;
@@ -60,9 +60,10 @@ public class LoginPage {
 		
 	}
 	
-	public void loginToGrowpital (String UserEmail, String UserPassword) {
+	public void loginToGrowpital (String UserEmail, String UserPassword) throws InterruptedException {
 		page.fill(email, UserEmail);
 		page.fill(password, UserPassword);
 		page.click(loginButton);
+		Thread.sleep(2000);
 	}
 }
