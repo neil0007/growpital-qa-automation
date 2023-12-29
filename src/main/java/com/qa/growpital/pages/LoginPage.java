@@ -22,8 +22,7 @@ public class LoginPage {
 	
 	//page actions/methods:
 	public String getLoginPageTitle() throws InterruptedException {
-		//page.waitForLoadState(LoadState.DOMCONTENTLOADED);
-		//page.waitForLoadState(LoadState.LOAD);
+		page.waitForLoadState();
 		String title =  page.title();
 		System.out.println("page title: " + title);
 		return title;
@@ -59,5 +58,11 @@ public class LoginPage {
 		page.click(createAccount);
 		return new SignUpPage(page);
 		
+	}
+	
+	public void loginToGrowpital (String UserEmail, String UserPassword) {
+		page.fill(email, UserEmail);
+		page.fill(password, UserPassword);
+		page.click(loginButton);
 	}
 }

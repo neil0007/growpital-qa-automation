@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.growpital.tests.LoginPageTest">
+      <class name="com.qa.growpital.tests.InvestPageTest">
         <methods>
-          <include name="tearDown"/>
+          <include name="verifyDashboardPageTitle"/>
           <include name="setup"/>
-          <include name="verifySingOutFromApp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.qa.growpital.tests.LoginPageTest -->
+      </class> <!-- com.qa.growpital.tests.InvestPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

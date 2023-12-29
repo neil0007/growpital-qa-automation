@@ -9,6 +9,7 @@ import org.testng.annotations.Parameters;
 import com.microsoft.playwright.Page;
 import com.qa.growpital.factory.PageFactory;
 import com.qa.growpital.pages.DashboardPage;
+import com.qa.growpital.pages.InvestPage;
 import com.qa.growpital.pages.LoginPage;
 import com.qa.growpital.pages.SignUpPage;
 
@@ -20,6 +21,7 @@ public class BaseTest {
 	protected LoginPage loginPage;
 	protected DashboardPage dashboardPage;
 	protected SignUpPage signUpPage;
+	protected InvestPage investPage;
 	
 	@Parameters("browser")
 	@BeforeTest

@@ -16,8 +16,7 @@ pipeline {
   }
   post {
     failure {
-        //slackSend(channel: "growpital-automation", message: "Hey Neil, Automation tests failed - Job Number: ${env.BUILD_NUMBER} (<${env.BUILD_URL}|Open>) Allure Report Link - ${env.BUILD_URL}allure/")
-        emailext(body: "Automation tests executed - Job Number:} ${env.BUILD_NUMBER} Allure Report Link - ${env.BUILD_URL}allure/", subject: 'Automation tests Failed', to: 'neil@growpital.com')
+        slackSend(channel: "growpital-automation", message: "Hey Neil, Shubhanshu, Automation tests failed - Job Number: ${env.BUILD_NUMBER} (<${env.BUILD_URL}|Open>) Allure Report Link - ${env.BUILD_URL}allure/")
     }
     //success {
     //    slackSend(channel: "growpital-automation", message: "Automation tests success - Job Number: ${env.BUILD_NUMBER} (<${env.BUILD_URL}|Open>) Allure Report Link - ${env.BUILD_URL}allure/ ")
@@ -40,7 +39,7 @@ pipeline {
         jdk: '',
         properties: [],
         reportBuildPolicy: 'ALWAYS',
-        results: [[path: 'growpital-qa-automation/allure-results']]
+        results: [[path: 'growpital-automation/allure-results']]
       ])
       cleanWs()
     }
