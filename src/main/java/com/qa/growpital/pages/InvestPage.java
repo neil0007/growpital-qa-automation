@@ -43,6 +43,7 @@ private Page page;
 	}
 	
 	public String getInvestPageTitle() {
+		page.waitForLoadState();
 		String title =  page.title();
 		return title;
 	}
@@ -116,6 +117,7 @@ private Page page;
 		
 	public String navigateToCancelPlan() {
 		page.click(viewDetailsLink);
+		page.waitForLoadState();
 		return page.title();
 	}
 	
